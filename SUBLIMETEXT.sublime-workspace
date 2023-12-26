@@ -15,6 +15,44 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/c/CASA/LINGUAGGI/SUBLIMETEXT/README.md",
+			"settings":
+			{
+				"buffer_size": 207,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					4,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAABsAAAAAAAAAHAAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAbAAAAAAAAABsAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					5,
+					1,
+					"paste",
+					null,
+					"AQAAABwAAAAAAAAAuQEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAcAAAAAAAAABwAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					8,
+					1,
+					"right_delete",
+					null,
+					"AQAAABsAAAAAAAAAGwAAAAAAAADqAAAACiMgQUNDRVNTX1RVVE9SSUFMClR1dG9yaWFsIGRpIGFjY2VzCgoJR1VJREEgUklGRVJJTUVOVE8gT0dHRVRUSSBBQ0VTUwoJCVNvbm8gZ2xpIG9nZ2V0dGkgZGkgQWNjZXNzIDIwMDcuCgkJdmFpIGEgLS0tPiBAUklGRVJJTUVOVE9AT0dHRVRUSUBBQ0NFU1MKCglHVUlEQSBSSUZFUklNRU5UTyBNT0RFTExJIERBTwoJCXNvbm8gaSBtb2RlbGxpIGRhdG8sIHZhaSBhIDsKCQkJLS0tPiBATU9ERUxMSUBEQU9ALgoK",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAbAAAAAAAAAAUBAAAAAAAAAAAAAAAAAAA"
+				]
+			]
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -27,6 +65,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"TOG",
+				"View: Toggle Menu"
+			],
 			[
 				"toggle me",
 				"View: Toggle Menu"
@@ -112,8 +154,7 @@
 	},
 	"expanded_folders":
 	[
-		"/c/CASA/LINGUAGGI/SUBLIMETEXT",
-		"/c/CASA/LINGUAGGI/SUBLIMETEXT/ANALISI"
+		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/User"
 	],
 	"file_history":
 	[
@@ -307,6 +348,38 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/c/CASA/LINGUAGGI/SUBLIMETEXT/README.md",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 207,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								207,
+								207
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -340,7 +413,7 @@
 			1.0
 		]
 	},
-	"menu_visible": false,
+	"menu_visible": true,
 	"output.Terminus":
 	{
 		"height": 175.0

@@ -2,8 +2,11 @@
 	"folders":
 	[
 		{
-			"path": "c:\\CASA\\LINGUAGGI\\SUBLIMETEXT\\.",
-		}
+			"path": "c:\\CASA\\LINGUAGGI\\SUBLIMETEXT",
+		},
+		{
+			"path": "C:\\Users\\icivi\\AppData\\Roaming\\Sublime Text\\Packages\\User"
+		},
 	],
 	"settings":
 	{

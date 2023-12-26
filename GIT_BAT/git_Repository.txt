@@ -1,0 +1,7 @@
+
+//REPOSITORY ROOT
+https://github.com/icivixwalter/CASA
+
+
+//LINGUAGGI
+https://github.com/icivixwalter/LINGUAGGI

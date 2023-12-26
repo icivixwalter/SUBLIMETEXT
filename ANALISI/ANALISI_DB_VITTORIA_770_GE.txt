@@ -1,0 +1,174 @@
+
+
+30/04/2020 MIGLIORAMENTI
+=======================================================================================================
+Creare una nuova tabella che evidenzi vari record relativi
+all'importo con discriminazione dell'IVA e la discriminazione
+della ritenuta di acconto.
+Evidenziare i totali IVA e TOTALI R.A.
+Inserire un flag per campo importo a cui si applica l'iva oppure è
+escluso dall'iva e identici campi Bolean per la %RA e per la base del calcolo rappresentata
+dal base del campo IMPORTO.
+
+	
+	ES. PERSONE GIURIDICHE + DITTA INDIVIDUALE
+	FATTURA 10/2010
+		Descrizione		IMPORTO		%IVA	IVA_PARZ	%RA	RA_PARZ		TOT_COMP
+		Importo 1		100		10	10		4	4
+		Importo	2 		100		22	22		4	4
+		Importo 3		100		0	0		0	0
+		------------------------------------------------------------------------------------------------
+		TOTALI			300		-	32		-	8		340,00	
+		
+
+	ES. PROFESSIONISTI
+	FATTURA 20/2010
+		Descrizione	Imp_b	IMPORTO	  b	%IVA	IVA_PARZ    b	%RA	RA_PARZ		TOT_COMP
+		Importo 1	X	100	  .	10	10	    .  	20	20		130
+		Importo	2 	x	100	  .	10	10	    .   20	20		130
+		Importo 3	x	100	  .	10	10	    .	20	20		130
+		------------------------------------------------------------------------------------------------
+		TOTALI			300		-	32		-	8		390,00	
+
+
+		i campi Bolean denominati ExImp, %ExIva ed Ex%RA permetto di escludere il calcolo de
+		totale parziale del regolo per intero se viene escluso la riga importo, e parziale se viene
+		escluso o la %IVA o la %RA oppure entrambi
+
+
+		//		OPERAZIONI DI COSTRUZIONE
+		//-----------------------------------------------------------------------------//
+			1) creo una nuova tabella =	770_Tb05_FATTURE
+			   Le chiavi principale sono 	COD_FATT
+							DATA_FATT
+							NRO_FATT
+			Le tre chiavi permetteono l'inserimento della nuova fattura identificata
+			in modo univoco.
+			
+			2) CREO LA TABELLA FATTURE TMP E LA POPOLO.
+			   Creata la tabella la popolo con una query prelevando i dati dalla
+			tabella 770_Tb01_Dati_770 ed inseriti nella tabella tmp 
+.			denominata 770_Tb05_FATTURE_TMP mediante la seguente query 
+			di inserimento -> 770_Tb05_FATTURE_Qry01_51_INSERT_Tmp.
+			
+			3)CREO LA TABELLA DEI DATI FISCALI DELLE FATTURE
+			770_Tb06_FATTURE_DETTAGLIO = che contiene il dettaglio fatture.
+			La chiave principale è ID contatore degli elemnti della fattura.
+			La stessa può avere diversi recordo con informazioni dettagliate meglio specificate:
+				A)LA CHIAVE DI 1 a molti è data dai campi collegati lato molti
+					della Join 	
+					COD_FATT
+					DATA_FATT
+					NRO_FATT
+					
+					ID = è la chiave principale
+					
+				B) la tabella	770_Tb06_FATTURE_DETTAGLIO è collegata nel lato molti con 
+				la tabella principale 770_Tb05_FATTURE (770_Tb05_FATTURE =770_Tb06_FATTURE_DETTAGLIO)
+				sia nella tabella di archivio e sia nella tabella TMP. In questo modo 
+				ad ogni soggetto corrispondono 1 a N fatture.
+				
+				es 
+				DENOMINAZIONE				COD_FATT	NRO_FATT	DATA_FATT
+				ARIES SOCIETA COOPERATIVA SOCIALE	1.1		224		27/12/2019
+				
+				Di conseguenza la chiavhe di collegamento tra la tabella principale e la secondaria è data
+				dai 3 campri sopra indicati:
+					IL CODICE FATTURA + IL NUMERO FATTURA + LA DATA DELLA FATTURA.
+				La denominazione nella tabella dettaglio non viene riportata, ma vengono riportati per un
+				controllo diretto, solo IL CF o la PIVA, al fine di un riscontro immediato del soggetto.
+				(Questi due campi non dovrebbero essere riportati perchè ridondanti, OCCORRE TROVARE UN CAMPO
+				 RIFERIMENTO, costruito con dall'unione di diversi campi.)
+				 		.... sistemare meglio ed elimnare CF + PIVA con altra soluzione .....
+				 		
+			4)ACCODO I DATI NELLA TABELLA 770_Tb06_FATTURE_DETTAGLIO_TMP
+				Accodo i dati nella tabella di dettaglio delle fatture.
+				
+				
+			5) CREO LA FORM FATTURE DI DETTAGLIO
+				La form che viene creata è la seguente
+				770_Frm01_{============================================}_Frm
+				770_Tb05_FATTURE_TMP_FrmS01_01_LeFatture.
+				
+				La Query sottostante è 770_Tb05_FATTURE_Qry01_01_TUTTE_TMP e contiene
+				solo le fatture dell'archivio TMP.
+				
+				
+				
+			6) CREO LA TABELLA EMITTENTI	
+				Perche la procedura deve partire dagli emittenti, a cui devono essere
+				agganciate le fatture emesse per chiave di PIVA + CF con posizione
+				una a molte con le fatture.
+					DETTAGLIO LEGAME
+					770_Tb04_EMITTENTI_TMP=770_Tb05_FATTURE_TMP
+					In questo modo ad  ogni emittente emette una o piu fatture.
+					
+					
+			7) CREO LA FORM EMITTENTI
+				Partendo da questo segnalibro imposto:
+				770_Tb04_EMITTENTI_TMP = tabella di riferimento
+					
+					Sezione form, segnalibro
+					770_Tb04_EMITTENTI_TMP_{===================================}_Qry
+					770_Tb04_EMITTENTI_TMP_Qry01_01_TUTTI
+					
+					Sezione form, segnalibro
+					770_Tb04_EMITTENTI_TMP_{===================================}_Frm
+					770_Tb04_EMITTENTI_TMP_Frm01_S1_TUTTI
+					
+					La form degli emittenti tmp:
+					770_Frm01_S01_Archivio_Dati_TMP
+						La query sottostante è 770_Tb05_FATTURE_Qry01_01_TUTTE_TMP
+
+						FORM EMITTENTI -> Le Fatture
+					........................................................				 		
+					La form è collegata a alla successiva form:
+					FORM EMITTENTI = 770_Tb04_EMITTENTI_TMP_Frm01_S1_TUTTI
+						collegata con le chiavi -> PIVA;CFPROPR
+					FORM LE FATTURE = 770_Tb05_FATTURE_TMP_FrmS01_01_LeFatture
+					..........................................................
+
+				- CREARE IL COLLEGAMENTO TRA LA FORM LE FATTURE	e la form 	
+							
+				
+							
+		//-----------------------------------------------------------------------------//
+
+
+
+CORREZIONI
+=============================================================================================
+30/04/2020
+
+CORREZIONI CALCOLI AUTOMATICI FATTURA
+nel modulo 770_Mdl01_AGGIORNAMENTI_Mdl01_DATI_FISCALI
+è stato corretto:
+	
+	FLg_CALC_01.=CODICE DI RICERCA PER LE MODIFICHE:
+	
+	1)FLg_CALC_01.01_ControlloUSCITA+MSG
+		Nella classe della form Form_770_Frm01_M01_GESTIONE_DATI.cls
+		Ho impostato un controllo sul campo CALC il quale emette un
+		messaggio di avviso in caso di esclusione del calcolo automatico.
+		
+		
+	2)FLg_CALC_01.04_Definizione = CODICE MODIFICHE
+		Nel modulo 770_Mdl01_AGGIORNAMENTI_Mdl01_DATI_FISCALI.bas
+		
+			FLg_CALC_01.04_Definizione
+			Ho definito la variabile boolean
+			
+			FLg_CALC_01.05_ControlloCampo
+			Ho recuperato il valore nel campo ed inserito
+			nella variabile bolean
+			
+			FLg_CALC_01.05_IF=False=CalcoloAutomatico
+			Ho fatto un controllo IF sul valore della variabile
+			bolean impostata a TRUE, in questo caso SALTA 
+			I CALCOLI AUTOMATICI.
+=======================================================================================================			
+		
+		
+		
+		
+			

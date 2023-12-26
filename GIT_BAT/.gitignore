@@ -1,0 +1,29 @@
+//IN ACCESS TUTORIAL ESCLUDERE
+//i salvataggi incrementali
+c:\CASA\LINGUAGGI\ACCESS\ACCESS_TUTORIAL\HELP_CMDPROCESSOR_ACCESS_2000\*.*
+
+
+
+// in access PROGETTI escludere
+c:\CASA\LINGUAGGI\ACCESS\ACCESS_PROGETTI_MDB\ZIP_SALVATAGGI\
+
+
+
+//ESCLUDERE LA CARTELLA ANDROID
+c:\CASA\LINGUAGGI\ANDROID\*.*
+
+
+
+//IN PROGETTI HTML ESCLUDERE la mia app troppo pesante
+c:\CASA\LINGUAGGI\HTML\PROGETTI_HTML\REACT_MENU_NJS\mia-app\ *.*
+
+
+//escluso per ora tutto RUST
+c:\CASA\LINGUAGGI\RUST\*.*
+
+
+//IN SUBLIME TEXT TUTTO HTMLE perche inutile basta il sorgente
+c:\CASA\LINGUAGGI\SUBLIMETEXT\TutorialSublimeText\*.html
+
+
+//per ora vedere come va..

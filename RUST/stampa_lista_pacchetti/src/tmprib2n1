@@ -1,0 +1,47 @@
+use std::fs;
+use std::io::Write;
+use std::path::PathBuf;
+use serde::Deserialize;
+
+#[derive(Deserialize)]
+struct PackageControlSettings {
+    installed_packages: Option<Vec<String>>,
+}
+
+fn main() -> Result<(), Box<dyn std::error::Error>> {
+
+    println!("STAMPA L!");
+
+
+    // Percorso file JSON (modifica se serve)
+    let mut path = dirs::config_dir().unwrap_or_else(|| PathBuf::from("."));
+    path.push("Sublime Text/Packages/User/Package Control.sublime-settings");
+
+    // Leggi tutto il contenuto
+    let content = fs::read_to_string(&path)?;
+    
+    // Parsifica JSON
+    let settings: PackageControlSettings = serde_json::from_str(&content)?;
+
+    println!("Pacchetti installati Sublime Text:");
+    println!("---------------------------------------");
+
+    if let Some(packages) = settings.installed_packages {
+        let mut output = String::new();
+        for pkg in &packages {
+            println!("- {}", pkg);
+            output.push_str(&format!("{}\n", pkg));
+        }
+        // Salva in file nella cartella corrente
+        let output_path = "sublime_installed_packages.txt";
+        let mut file = fs::File::create(output_path)?;
+        file.write_all(output.as_bytes())?;
+
+        println!("---------------------------------------");
+        println!("Elenco salvato in: {}", output_path);
+    } else {
+        println!("Nessun pacchetto installato trovato.");
+    }
+
+    Ok(())
+}

@@ -1,0 +1,89 @@
+// 1. Importazione dei moduli standard per gestione file e percorsi
+use std::fs::{self, OpenOptions};      // Per leggere/scrivere file
+use std::io::Write;                    // Per usare writeln!
+use std::path::PathBuf;               // Per gestire percorsi in modo cross-platform
+
+// 2. Importazione delle crate esterne
+use serde::Deserialize;               // Per deserializzare il JSON
+use dirs;                             // Per trovare directory utente standard
+
+// 3. Definizione della struttura corrispondente al JSON di Sublime Text
+#[derive(Deserialize, Debug)]
+struct PackageControlSettings {
+    installed_packages: Option<Vec<String>>,
+}
+
+// 4. Funzione principale
+fn main() {
+    // 5. Percorso file log
+    let log_path = PathBuf::from("C:\\CASA\\LINGUAGGI\\SUBLIMETEXT\\log_pacchetti.txt");
+
+    // 6. Funzione di log per scrivere su console e file
+    #[warn!("{unused_m}", );]
+    let mut log = |message: &str| {
+        println!("{}", message);
+        let _ = OpenOptions::new()
+            .create(true)
+            .append(true)
+            .open(&log_path)
+            .and_then(|mut f| writeln!(f, "{}", message));
+    };
+
+    log("1. Avvio stampa elenco pacchetti Sublime Text.");
+
+    // 7. Costruzione del percorso del file Package Control.sublime-settings
+    let mut settings_path = dirs::config_dir().unwrap_or_else(|| PathBuf::from("."));
+    settings_path.push("Sublime Text");
+    settings_path.push("Packages");
+    settings_path.push("User");
+    settings_path.push("Package Control.sublime-settings");
+
+    log(&format!("2. Percorso file di impostazioni: {:?}", settings_path));
+
+    // 8. Lettura del file JSON
+    let content = match fs::read_to_string(&settings_path) {
+        Ok(c) => c,
+        Err(e) => {
+            log(&format!("Errore lettura file: {}", e));
+            return;
+        }
+    };
+
+    log("3. Prime righe del file JSON:");
+    for (i, line) in content.lines().take(30).enumerate() {
+        log(&format!("{:02}: {}", i + 1, line));
+    }
+
+    // 9. Parsing del contenuto JSON nella struct
+    let settings: PackageControlSettings = match serde_json::from_str(&content) {
+        Ok(s) => s,
+        Err(e) => {
+            log(&format!("Errore parsing JSON: {}", e));
+            return;
+        }
+    };
+
+    // 10. Percorso file output per l'elenco pacchetti
+    let output_path = PathBuf::from("C:\\CASA\\LINGUAGGI\\SUBLIMETEXT\\sublime_installed_packages.txt");
+
+    // 11. Verifica pacchetti installati e salvataggio
+    match settings.installed_packages {
+        Some(packages) => {
+            log("4. Elenco pacchetti trovati:");
+            for pkg in &packages {
+                log(&format!("- {}", pkg));
+            }
+
+            // 12. Scrittura pacchetti su file output
+            if let Err(e) = fs::write(&output_path, packages.join("\n")) {
+                log(&format!("Errore scrittura file output: {}", e));
+                return;
+            }
+
+            log(&format!("5. Elenco pacchetti salvato in: {:?}", output_path));
+        }
+        None => {
+            log("Nessun pacchetto installato trovato.");
+        }
+    }
+}

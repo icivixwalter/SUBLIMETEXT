@@ -2,11 +2,7 @@
 	"folders":
 	[
 		{
-			"path": "c:\\CASA\\LINGUAGGI\\SUBLIMETEXT",
-		},
-	],
-	"settings":
-	{
-		"rust_syntax_checking": false,
-	},
+			"path": "c:/CASA/LINGUAGGI/SUBLIMETEXT/."
+		}
+	]
 }

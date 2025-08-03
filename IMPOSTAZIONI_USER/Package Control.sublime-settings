@@ -5,20 +5,18 @@
 	],
 	"installed_packages":
 	[
-		"Color Scheme - Vintage Terminal",
-		"Dark Knight Color Scheme",
-		"Git",
-		"Hide Menu",   //necessario per le selezioni blue ed i colori
-		"LSP-rust-analyzer",
-		"Material Color Scheme",
-		"Material Monokai",
+		"GitHub Flavored Markdown Preview",
+		"Markdown Extended",
+		"Markdown Slideshow",
+		"MarkdownEditing",
+		"MarkdownFootnotes",
+		"MarkdownLivePreview",
+		"MarkdownPreview",
+		"Markmon real-time markdown preview",
 		"Package Control",
 		"Rust Enhanced",
 		"RustAutoComplete",
-		"SidebarSeparator",
 		"Terminal",
-		"Terminus",
-		"Toggle Read-Only",
-		"Toggle Sidebar Focus",
-	],
+		"Terminus"
+	]
 }

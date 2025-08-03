@@ -16,40 +16,30 @@
 	"buffers":
 	[
 		{
-			"file": "/c/CASA/LINGUAGGI/SUBLIMETEXT/README.md",
+			"file": "/c/CASA/LINGUAGGI/SUBLIMETEXT/README_COMANDI_VARI.MD",
 			"settings":
 			{
-				"buffer_size": 207,
+				"buffer_size": 6763,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			},
 			"undo_stack":
 			[
 				[
-					4,
-					1,
-					"insert",
-					{
-						"characters": "\n"
-					},
-					"AQAAABsAAAAAAAAAHAAAAAAAAAAAAAAA",
-					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAbAAAAAAAAABsAAAAAAAAAAAAAAAAA8L8"
-				],
-				[
-					5,
+					10,
 					1,
 					"paste",
 					null,
-					"AQAAABwAAAAAAAAAuQEAAAAAAAAAAAAA",
-					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAcAAAAAAAAABwAAAAAAAAAAAAAAAAA8L8"
+					"AQAAAMUNAAAAAAAA8A0AAAAAAAANAAAAUlVTVF9UVVRPUklBTA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAANINAAAAAAAAxQ0AAAAAAAAAAAAAAADwvw"
 				],
 				[
-					8,
+					14,
 					1,
-					"right_delete",
+					"paste",
 					null,
-					"AQAAABsAAAAAAAAAGwAAAAAAAADqAAAACiMgQUNDRVNTX1RVVE9SSUFMClR1dG9yaWFsIGRpIGFjY2VzCgoJR1VJREEgUklGRVJJTUVOVE8gT0dHRVRUSSBBQ0VTUwoJCVNvbm8gZ2xpIG9nZ2V0dGkgZGkgQWNjZXNzIDIwMDcuCgkJdmFpIGEgLS0tPiBAUklGRVJJTUVOVE9AT0dHRVRUSUBBQ0NFU1MKCglHVUlEQSBSSUZFUklNRU5UTyBNT0RFTExJIERBTwoJCXNvbm8gaSBtb2RlbGxpIGRhdG8sIHZhaSBhIDsKCQkJLS0tPiBATU9ERUxMSUBEQU9ALgoK",
-					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAbAAAAAAAAAAUBAAAAAAAAAAAAAAAAAAA"
+					"AQAAAKUNAAAAAAAA0A0AAAAAAABLAAAAaHR0cHM6Ly9naXRodWIuY29tL2ljaXZpeHdhbHRlci9odHRwczovL2dpdGh1Yi5jb20vaWNpdml4d2FsdGVyL1NVQkxJTUVURVhU",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAPANAAAAAAAApQ0AAAAAAAAAAAAAAADwvw"
 				]
 			]
 		}
@@ -57,6 +47,22 @@
 	"build_system": "",
 	"build_system_choices":
 	[
+		[
+			[
+				[
+					"Packages/MarkdownPreview/Markdown.sublime-build",
+					""
+				],
+				[
+					"Packages/User/PandocToWord.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/PandocToWord.sublime-build",
+				""
+			]
+		]
 	],
 	"build_varint": "",
 	"command_palette":
@@ -66,52 +72,84 @@
 		"selected_items":
 		[
 			[
-				"TOG",
-				"View: Toggle Menu"
+				"previw",
+				"MarkdownLivePreview: Open Settings"
 			],
 			[
-				"toggle me",
-				"View: Toggle Menu"
+				"previ",
+				"Markdown Preview: Preview in Browser"
 			],
 			[
-				"sele",
-				"UI: Select Theme"
+				"previe",
+				"Markdown Preview: Preview in Browser"
 			],
 			[
-				"teh",
-				"UI: Select Theme"
+				"PREV",
+				"MarkdownLivePreview: Open Preview"
 			],
 			[
-				"select ",
-				"UI: Select Theme"
+				"html",
+				"Markdown Preview: Save to HTML"
 			],
 			[
-				"select theme",
-				"UI: Select Theme"
+				"preview",
+				"MarkdownLivePreview: Open Preview"
 			],
 			[
-				"toggle",
-				"Rust: Toggle Syntax Checking"
+				"prev",
+				"MarkdownLivePreview: Open Preview"
 			],
 			[
-				"toggle m",
-				"Terminus: Toggle Panel"
-			],
-			[
-				"Package Control:",
-				"Package Control: Install Package"
+				"open prev",
+				"MarkdownLivePreview: Open Preview"
 			],
 			[
 				"Package Control: ",
 				"Package Control: List Packages"
 			],
 			[
-				"Package Control: ins",
+				"PREVIE",
+				"MarkdownLivePreview: Open Preview"
+			],
+			[
+				"insta",
 				"Package Control: Install Package"
 			],
 			[
-				"Package Control: inst",
+				"OPEN PREVI",
+				"MarkdownLivePreview: Open Preview"
+			],
+			[
+				"PREIV",
+				"MarkdownLivePreview: Open Preview"
+			],
+			[
+				"mard",
+				"MarkdownEditing: Toggle Task"
+			],
+			[
+				"togl",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"eding",
+				"MarkdownEditing: New Image"
+			],
+			[
+				"instal",
 				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"MA",
+				"MarkdownLivePreview: Open Preview"
 			],
 			[
 				"",
@@ -141,6 +179,7 @@
 		"height": 231.0,
 		"history":
 		[
+			"import urllib.request, zipfile, os\nfrom io import BytesIO\n\n# Scarica il pacchetto di Package Control\nurl = 'https://packagecontrol.io/Package%20Control.sublime-package'\nresponse = urllib.request.urlopen(url)\ndata = BytesIO(response.read())\n\n# Estrai il pacchetto nella cartella giusta\ninstall_dir = os.path.join(sublime.packages_path(), 'Package Control')\nwith zipfile.ZipFile(data) as zf:\n    zf.extractall(install_dir)\n"
 		]
 	},
 	"distraction_free":
@@ -155,28 +194,54 @@
 	"expanded_folders":
 	[
 		"/c/CASA/LINGUAGGI/SUBLIMETEXT",
-		"/c/CASA/LINGUAGGI/SUBLIMETEXT/IMPOSTAZIONI_USER",
-		"/c/CASA/LINGUAGGI/SUBLIMETEXT/IMPOSTAZIONI_USER/Terminus"
+		"/c/CASA/LINGUAGGI/SUBLIMETEXT/RUST",
+		"/c/CASA/LINGUAGGI/SUBLIMETEXT/RUST/stampa_lista_pacchetti",
+		"/c/CASA/LINGUAGGI/SUBLIMETEXT/RUST/stampa_lista_pacchetti/src"
 	],
 	"file_history":
 	[
-		"/c/CASA/LINGUAGGI/SUBLIMETEXT/SUBLIMETEXT.sublime-project",
-		"/C/CASA/LINGUAGGI/SUBLIMETEXT/IMPOSTAZIONI_USER/IMPOSTAZIONI_CASA.MD",
-		"/c/CASA/LINGUAGGI/SUBLIMETEXT/ANALISI/IL_MIO_TUTORIAL_SUBLIMETEXT.MD",
-		"/c/CASA/LINGUAGGI/SUBLIMETEXT/DOCUMENTAZIONE_SUBLIME_TEXT/TEMI.MD",
-		"/c/CASA/LINGUAGGI/SUBLIMETEXT/ANALISI/IMPOSTAZIONI_SUBLIMETEXT_Mariana.md",
+		"/c/CASA/LINGUAGGI/SUBLIMETEXT/COPIA_IMPOSTAZIONI_SUBLIMETEXT.BAT",
+		"/c/CASA/LINGUAGGI/SUBLIMETEXT/RUST/stampa_lista_pacchetti/src/main.rs",
+		"/c/CASA/LINGUAGGI/SUBLIMETEXT/RUST/stampa_lista_pacchetti/Cargo.toml",
+		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/User/Package Control.sublime-settings",
+		"/c/CASA/LINGUAGGI/SUBLIMETEXT/README_COMANDI_VARI.MD",
+		"/c/CASA/LINGUAGGI/SUBLIMETEXT/STAMPA_LISTA_PACCHETTI_SublimeSettings.ps1",
+		"/c/CASA/LINGUAGGI/SUBLIMETEXT/STAMPA_LISTA_PACCHETTI_SublimeSettings.bat",
+		"/C/CASA/LINGUAGGI/SUBLIMETEXT/STAMPA_LISTA_PACCHETTI_SublimeSettings.bat",
+		"/c/CASA/LINGUAGGI/SUBLIMETEXT/DOCUMENTAZIONE_SUBLIME_TEXT/TUTORIAL_TEMI.MD",
+		"/c/CASA/LINGUAGGI/SUBLIMETEXT/README.md",
 		"/C/CASA/LINGUAGGI/SUBLIMETEXT/DOCUMENTAZIONE_SUBLIME_TEXT/TEMI.MD",
-		"/c/CASA/LINGUAGGI/SUBLIMETEXT/ANALISI/IMPOSTAZIONI_SUBLIMETEXT_Terminus_Interno.md",
-		"/C/CASA/LINGUAGGI/SUBLIMETEXT/ANALISI/IMPOSTAZIONI_SUBLIMETEXT_Mariana.md",
-		"/c/CASA/LINGUAGGI/SUBLIMETEXT/ANALISI/TUTORIAL_SUBLIMETEXT.MD",
-		"/C/CASA/LINGUAGGI/SUBLIMETEXT/ANALISI/IMPOSTA_SUBLIMETEXT_Mariana.md",
 		"/C/CASA/LINGUAGGI/SUBLIMETEXT/SUBLIMETEXT.sublime-project",
-		"/c/CASA/LINGUAGGI/SUBLIMETEXT/ANALISI/SUBLIMETEXT_DOCUMENTAZIONE_UFFICIALE.MD",
-		"/c/CASA/LINGUAGGI/SUBLIMETEXT/ANALISI/SUBLIMETEXT_DOCUMENTAZIONE_DELLA_COMUNITA.MD",
-		"/G/CASA/LINGUAGGI/SUBLIMETEXT/SUBLIMETEXT.sublime-project",
-		"/C/CASA/LINGUAGGI/RUST/RUST_PROGETTI/RUST_COMPRIMI/ProjectRustComprimi.sublime-project",
-		"/c/CASA/LINGUAGGI/RUST/RUST_PROGETTI/RUST_COMPRIMI/src/main.rs",
+		"/C/CASA/LINGUAGGI/RUST/RUST_TUTORIAL/RUST_TUTORIAL.sublime-project",
+		"/C/CASA/LINGUAGGI/RUST/RUST_TUTORIAL/RUST_TUTORIAL_TONY_CHAN/RIASSUNTO_TONY_CHAN.md",
+		"/C/CASA/GE_CASA/GE_MARINO/BANCA/POCKET_OPTION/README_POCKET_OPTION.MD",
+		"/C/CASA/LINGUAGGI/RUST/RUST_TUTORIAL/RUST_TUTORIAL_TONY_CHAN/README.MD",
+		"/C/CASA/LINGUAGGI/RUST/tradingeconomics/README.md",
+		"/C/CASA/LINGUAGGI/RUST/RUST_TUTORIAL/AA________________________________________________________________________AA.txt",
+		"/c/CASA/LINGUAGGI/RUST/RUST_TUTORIAL/RUST_TUTORIAL_TONY_CHAN/RIASSUNTO_TONY_CHAN.md",
+		"/c/CASA/LINGUAGGI/RUST/RUST_TUTORIAL/RUST_TUTORIAL_TONY_CHAN/RIASSUNTO_TONY_CHAN.html",
+		"/c/CASA/LINGUAGGI/RUST/RUST_TUTORIAL/RUST_TUTORIAL_TONY_CHAN/EXAMPLE/calcolo/src/main.rs",
+		"/c/CASA/LINGUAGGI/RUST/RUST_TUTORIAL/RUST_TUTORIAL_TONY_CHAN/EXAMPLE/std_thread/src/main.rs",
+		"/c/CASA/LINGUAGGI/RUST/RUST_TUTORIAL/RUST_TUTORIAL_TONY_CHAN/EXAMPLE/std_io/src/main.rs",
+		"/c/CASA/LINGUAGGI/RUST/RUST_TUTORIAL/RUST_TUTORIAL_TONY_CHAN/EXAMPLE/std_in/src/main.rs",
+		"/c/CASA/LINGUAGGI/RUST/RUST_TUTORIAL/RUST_TUTORIAL_TONY_CHAN/EXAMPLE/std_fs/src/main.rs",
+		"/c/CASA/LINGUAGGI/RUST/RUST_TUTORIAL/RUST_TUTORIAL_TONY_CHAN/EXAMPLE/std_collection/src/main.rs",
+		"/c/CASA/LINGUAGGI/RUST/RUST_TUTORIAL/RUST_TUTORIAL_TONY_CHAN/README.MD",
+		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/User/Default.sublime-theme",
+		"/c/CASA/LINGUAGGI/RUST/RUST_TUTORIAL/RUST_TUTORIAL_TONY_CHAN/EXAMPLE/st_in/src/main.rs",
+		"/c/CASA/LINGUAGGI/RUST/RUST_TUTORIAL/RUST_TUTORIAL_TONY_CHAN/EXAMPLE/st_io/src/main.rs",
+		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/User/PandocToWord.sublime-build",
+		"/c/CASA/LINGUAGGI/RUST/RUST_TUTORIAL/RUST_TUTORIAL_TONY_CHAN/HomePage.md",
+		"/C/CASA/LINGUAGGI/RUST/RUST_TUTORIAL/RUST_TUTORIAL_COMPLETO.MD",
+		"/C/CASA/LINGUAGGI/RUST/RUST_TUTORIAL/RUST_PROJECT_TUTORIAL/README_COMANDI_RUST.MD",
+		"/C/CASA/LINGUAGGI/DOS/UTILITA_FILE.MD",
+		"/C/CASA/CDM/GE_COND/GIUR/OBJECT/PROGETTO_TB01_GIUR/TABLE/GIUR_Tb01_PARAMETRI_CONDOMINIO.MD",
+		"/C/CASA/CDM/GE_COND/GIUR/OBJECT/PROGETTO_TB01_GIUR/TB01_GIUR_README.MD",
 		"/C/CASA/CDM/GE_COND/GIUR/PROJECT_GIUR_ANALISI/GIUR_REDME.MD",
+		"/C/CASA/CDM/GE_COND/GIUR/OBJECT/TABLE/GIUR_Tb01_PARAMETRI_CONDOMINIO.MD",
+		"/C/CASA/CDM/GE_COND/GIUR/PROJECT_GIUR_ANALISI/UTIL_FrmTB09_ATTI_M01_GEST_ATTI_(Aggiornamenti).md",
+		"/C/CASA/CDM/GE_COND/GIUR/PROJECT_GIUR_ANALISI/Msys_GESTIONE_GENERALE.md",
+		"/C/CASA/CDM/GE_COND/GIUR/PROJECT_GIUR_ANALISI/Project_GIUR.sublime-project",
 		"/C/CASA/CDM/GE_COND/GIUR/PROJECT_GIUR_ANALISI/MASTRO.MD",
 		"/C/CASA/CDM/LeTorri/2023/ASSEMBLEA_ORDINARIA/2023_06_09/05_MDB/CONS/PROJECT_CONS_ANALISI/MOVIMENTI_CONTABILI_2022_nw.md",
 		"/C/CASA/CDM/LeTorri/2023/ASSEMBLEA_ORDINARIA/2023_06_09/05_MDB/CONS/PROJECT_CONS_ANALISI/MOVIMENTI_CONTABILI_2022.md",
@@ -229,14 +294,13 @@
 	],
 	"find":
 	{
-		"height": 31.0
+		"height": 34.4
 	},
 	"find_in_files":
 	{
-		"height": 113.0,
+		"height": 134.4,
 		"where_history":
 		[
-			""
 		]
 	},
 	"find_state":
@@ -244,89 +308,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"@menu@orizzontali",
-			"@sinistro",
-			"@menu",
-			"riattivazione ",
-			"scomparsa dei menu",
-			"@menu",
-			"@barra",
-			"@men",
-			"@tem",
-			"@tema",
-			"@temi",
-			"@temiù",
-			"@casa",
-			"@selezione",
-			"@terminale@esterno",
-			"@terminale@interno",
-			"@comando",
-			"@terminale@esterno",
-			"apri in dos pdf",
-			"APRI in dos pdf + path in unico comando\n",
-			"@set",
-			"@multiplo",
-			"@dos",
-			"comando",
-			"@COLORI",
-			"�",
-			"-�",
-			"�",
-			"01",
-			"18",
-			"01",
-			"40",
-			"€",
-			"-€",
-			"ATTI_TXT_DblClick",
-			"APRO APRI ATTI  @?@ATTI - @COMBINATA",
-			"##################################################################################################################",
-			"AfterUpdat",
-			"HELP",
-			"L'HELP",
-			"MAURIZIO",
-			"CORSETTI",
-			"coppola",
-			"calicchia",
-			"patrizia",
-			"MARIA",
-			"STEFANO",
-			"maurizio",
-			"CIRILLO",
-			"CARDEA",
-			"cirillo",
-			"BENITO",
-			"calicchia maurizio",
-			"calicchia daniela",
-			"santucci",
-			"arduini",
-			"anna arduini",
-			"santucci",
-			"ced",
-			"ricci",
-			"gianmarco",
-			"cimini",
-			"cimmini",
-			"lunghi",
-			"cicciarelli",
-			"cimini",
-			"lunghi",
-			"celani",
-			"cicciarelli",
-			"caringi",
-			"benito",
-			"maria",
-			"caringi",
-			"STEFANO",
-			"fratini",
-			"francesca",
-			"sara",
-			"martino",
-			"@+",
-			"+",
-			"@+",
-			"MAURIZIO",
-			"baldassarre"
+			"message",
+			"\\",
+			"F",
+			"\\",
+			"lifetimes",
+			"ownership",
+			"borrowing",
+			"-",
+			"_",
+			"08_01_ViaBassini_VERSAMENTI_RATA_03_2025_(boll_11585R265)_242,00.pdf",
+			"e"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -334,10 +326,6 @@
 		"regex": false,
 		"replace_history":
 		[
-			"FILE_s_TXT_DblClick",
-			"==================================================================================================================",
-			"ATTI",
-			"APRI ATTI"
 		],
 		"reverse": false,
 		"scrollbar_highlights": true,
@@ -354,30 +342,31 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/c/CASA/LINGUAGGI/SUBLIMETEXT/README.md",
+					"file": "/c/CASA/LINGUAGGI/SUBLIMETEXT/README_COMANDI_VARI.MD",
 					"selected": true,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 207,
+						"buffer_size": 6763,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								207,
-								207
+								3912,
+								3912
 							]
 						],
 						"settings":
 						{
+							"mde.match_heading_hashes": false,
 							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": false
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1350.4,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -389,11 +378,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 31.0
+		"height": 34.4
 	},
 	"input":
 	{
-		"height": 43.0
+		"height": 50.4
 	},
 	"layout":
 	{
@@ -417,20 +406,33 @@
 			1.0
 		]
 	},
-	"menu_visible": false,
+	"menu_visible": true,
 	"output.Terminus":
 	{
-		"height": 175.0
+		"height": 341.0,
+		"history":
+		[
+		]
+	},
+	"output.exec":
+	{
+		"height": 486.0,
+		"history":
+		[
+		]
 	},
 	"output.find_results":
 	{
-		"height": 0.0
+		"height": 0.0,
+		"history":
+		[
+		]
 	},
 	"pinned_build_system": "",
 	"project": "SUBLIMETEXT.sublime-project",
 	"replace":
 	{
-		"height": 58.0
+		"height": 65.6
 	},
 	"save_all_on_build": false,
 	"select_file":
@@ -469,7 +471,7 @@
 	{
 	},
 	"show_minimap": false,
-	"show_open_files": true,
+	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 358.0,

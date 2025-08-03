@@ -64,7 +64,7 @@
             START "APRI SUBLIMETEX CON TOTALCOMMANDER " "C:\Program Files\totalcmd\TOTALCMD64.EXE" /L="C:\Users\icivi\AppData\Roaming\Sublime Text\Packages" /R="C:\Users\icivi\AppData\Roaming\Sublime Text\Packages\User"
 
 ## GITHUB
-   @Progetto@web
+   @Progetto@sublimetext@web
       si trova in questa posizione su github:
          https://github.com/icivixwalter/SUBLIMETEXT
 

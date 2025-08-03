@@ -69,8 +69,12 @@
          https://github.com/icivixwalter/SUBLIMETEXT
 
    @comando@githu@unico_(esempio di @comando@unico)
-      copiare il comando ..
-         git status & git pull & git add . & git commit -m "agg" & git push & pull
+      copiare il comando :
+         con git status e pull      = controllo il locale e aggiorno prima da github
+         con git add . e git commit = salvo nella respository locale
+         con git push               = salvo su github
+         con git pull               = riaggiorno da github e gitlocale 
+         git status & git pull & git add . & git commit -m "agg" & git push & git pull
          
    @git@rebase
       git pull --rebase

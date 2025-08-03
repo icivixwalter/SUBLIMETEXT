@@ -68,7 +68,7 @@
       si trova in questa posizione su github:
          https://github.com/icivixwalter/SUBLIMETEXT
 
-   @comando@githu@unico
+   @comando@githu@unico_(esempio di @comando@unico)
       copiare il comando ..
          git status & git pull & git add . & git commit -m "agg" & git push
          

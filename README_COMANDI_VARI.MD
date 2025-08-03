@@ -71,6 +71,30 @@
    @comando@githu@unico
       copiare il comando ..
          git status & git pull & git add . & git commit -m "agg" & git push
+         
+   @git@rebase
+      git pull --rebase
+         
+         significato
+            git pull --rebase = aggiorna il branch locale mettendo i tuoi commit sopra quelli remoti
+            Quando fai un normale git pull, Git fa due cose:
+            
+            Scarica (fetch) le modifiche dal remoto.
+            
+            Fa un merge delle modifiche remote con quelle locali, creando un nuovo 
+            commit di merge se ci sono divergenze.
+            
+            Con git pull --rebase, invece di fare un merge, Git:
+            
+            Scarica (fetch) le modifiche dal remoto.
+            
+            Prende i tuoi commit locali che hai fatto dopo l'ultimo commit 
+            remoto comune e li "sposta" (rebase) sopra gli aggiornamenti remoti.
+            
+            Perché usare --rebase?
+            La storia dei commit resta lineare, senza commit di merge extra.
+            
+            La cronologia è più pulita e facile da leggere.
 
 ## DOS
         dir /A /b *.*  >> A.TXT           = salvo su a.txt le cartellse senza path

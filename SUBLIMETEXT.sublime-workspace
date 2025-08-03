@@ -15,34 +15,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/c/CASA/LINGUAGGI/SUBLIMETEXT/README_COMANDI_VARI.MD",
-			"settings":
-			{
-				"buffer_size": 6763,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			},
-			"undo_stack":
-			[
-				[
-					10,
-					1,
-					"paste",
-					null,
-					"AQAAAMUNAAAAAAAA8A0AAAAAAAANAAAAUlVTVF9UVVRPUklBTA",
-					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAANINAAAAAAAAxQ0AAAAAAAAAAAAAAADwvw"
-				],
-				[
-					14,
-					1,
-					"paste",
-					null,
-					"AQAAAKUNAAAAAAAA0A0AAAAAAABLAAAAaHR0cHM6Ly9naXRodWIuY29tL2ljaXZpeHdhbHRlci9odHRwczovL2dpdGh1Yi5jb20vaWNpdml4d2FsdGVyL1NVQkxJTUVURVhU",
-					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAPANAAAAAAAApQ0AAAAAAAAAAAAAAADwvw"
-				]
-			]
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -200,11 +172,11 @@
 	],
 	"file_history":
 	[
+		"/c/CASA/LINGUAGGI/SUBLIMETEXT/README_COMANDI_VARI.MD",
 		"/c/CASA/LINGUAGGI/SUBLIMETEXT/COPIA_IMPOSTAZIONI_SUBLIMETEXT.BAT",
 		"/c/CASA/LINGUAGGI/SUBLIMETEXT/RUST/stampa_lista_pacchetti/src/main.rs",
 		"/c/CASA/LINGUAGGI/SUBLIMETEXT/RUST/stampa_lista_pacchetti/Cargo.toml",
 		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/User/Package Control.sublime-settings",
-		"/c/CASA/LINGUAGGI/SUBLIMETEXT/README_COMANDI_VARI.MD",
 		"/c/CASA/LINGUAGGI/SUBLIMETEXT/STAMPA_LISTA_PACCHETTI_SublimeSettings.ps1",
 		"/c/CASA/LINGUAGGI/SUBLIMETEXT/STAMPA_LISTA_PACCHETTI_SublimeSettings.bat",
 		"/C/CASA/LINGUAGGI/SUBLIMETEXT/STAMPA_LISTA_PACCHETTI_SublimeSettings.bat",
@@ -340,39 +312,6 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/c/CASA/LINGUAGGI/SUBLIMETEXT/README_COMANDI_VARI.MD",
-					"selected": true,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6763,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3912,
-								3912
-							]
-						],
-						"settings":
-						{
-							"mde.match_heading_hashes": false,
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
-							"tab_size": 3,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1350.4,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				}
 			]
 		}
 	],

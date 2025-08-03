@@ -70,7 +70,7 @@
 
    @comando@githu@unico_(esempio di @comando@unico)
       copiare il comando ..
-         git status & git pull & git add . & git commit -m "agg" & git push
+         git status & git pull & git add . & git commit -m "agg" & git push & pull
          
    @git@rebase
       git pull --rebase

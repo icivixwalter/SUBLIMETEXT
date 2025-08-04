@@ -33,7 +33,7 @@ class ApriReadmeCommand(sublime_plugin.WindowCommand):
         # altre voci che corrispondono a di file.bat
         self.options = [
             "1. Apri README TUTORIAL RUST",
-            "2. Apri README COMANDI VARI",
+            "2. Apri README SUBLIMETEX COMANDI VARI, dos, git sublimetext ecc.",
             "3. Apri TUTORIAL POCKET OPTION",
             "10. Apri file SUBLIME: Build_ESEGUI_DOS.sublime-build",
             "11. Apri file PYTHON: Build_ESEGUI_Python.py",

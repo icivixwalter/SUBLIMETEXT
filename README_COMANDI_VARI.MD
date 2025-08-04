@@ -1,6 +1,10 @@
 # @README_TUTOTORIAL_RUST.MD
    qui vengono riportati i comandi brevi su per git, dos, sublimetex e makdown.
+      per aprire il progetto di sublimetex: 
 
+            START "APRI CARTELLA PROGETTO SUBLIMETEXT" "C:\CASA\LINGUAGGI\SUBLIMETEXT\"  
+
+            START "APRI PROGETTO SUBLIMETEXT" "C:\CASA\LINGUAGGI\SUBLIMETEXT\SUBLIMETEXT.sublime-project"  
 
 ## APERTURA COMANDI SUBLIMETEXT
    Note
@@ -99,6 +103,45 @@
             La storia dei commit resta lineare, senza commit di merge extra.
             
             La cronologia è più pulita e facile da leggere.
+
+
+   @ERRORI@GIT_(errori di gith in ordine alfabetico)
+      A
+         ALREADY
+            Alreade up to date
+               Già aggiornato
+      C
+         COMMIT
+               nothing to commit, working tree clean
+                  niente da impegnare, albero funzionante pulito
+      B
+         BRANCH IN AVANTI RISPETTO ALL'ORIGINE
+            On branch main
+            Your branch is ahead of origin/main by 1 commits (use git push to publish your local commits)
+            noting to commit, working tree clean.
+
+            Sul ramo principale
+            Il tuo ramo è avanti rispetto a origin/main di 1 commit (usa git push per pubblicare i tuoi commit locali)
+            notare di impegnarsi, lavora sull'albero in modo pulito.
+      P
+         PROFILO GIT
+            per i profilo git questa è l'utenza
+            email: icivixwalter@gmail.com
+            passw: walter_01_
+
+            per configurare il profilo per tutto utilizzo globale con questi comandi
+               git config --global user.email "you@example.com"
+               git config --global user.name "Your Name"
+
+            se vuoi impostar il profilo solo per la  repository
+            corrente utilizza:
+            git config user.email "you@example.com"
+            git config user.name "Your Name"
+
+               esempio
+               git config user.email "icivixwalter@gmail.com"
+               git config user.name "walter"
+
 
 ## DOS
         dir /A /b *.*  >> A.TXT           = salvo su a.txt le cartellse senza path

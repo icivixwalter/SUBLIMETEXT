@@ -28,23 +28,11 @@
 		"selected_items":
 		[
 			[
-				"",
-				"Apri Readme Menu"
-			],
-			[
-				"previw",
-				"MarkdownLivePreview: Open Settings"
+				"prev",
+				"MarkdownLivePreview: Open Preview"
 			],
 			[
 				"previ",
-				"Markdown Preview: Preview in Browser"
-			],
-			[
-				"previe",
-				"Markdown Preview: Preview in Browser"
-			],
-			[
-				"PREV",
 				"MarkdownLivePreview: Open Preview"
 			],
 			[
@@ -53,10 +41,6 @@
 			],
 			[
 				"preview",
-				"MarkdownLivePreview: Open Preview"
-			],
-			[
-				"prev",
 				"MarkdownLivePreview: Open Preview"
 			],
 			[
@@ -69,6 +53,10 @@
 			],
 			[
 				"PREVIE",
+				"MarkdownLivePreview: Open Preview"
+			],
+			[
+				"previe",
 				"MarkdownLivePreview: Open Preview"
 			],
 			[
@@ -112,6 +100,10 @@
 				"MarkdownLivePreview: Open Preview"
 			],
 			[
+				"",
+				"Build: New Build System"
+			],
+			[
 				"prv",
 				"PackageResourceViewer: Open Resource"
 			],
@@ -147,39 +139,21 @@
 		"side_bar_visible": false,
 		"status_bar_visible": true
 	},
-	"expanded_folders":
-	[
-		"/c/CASA/LINGUAGGI/SUBLIMETEXT"
-	],
 	"file_history":
 	[
-		"/C/CASA/LINGUAGGI/RUST/PROGETTI_RUST/TUTORIAL_TONY_CHAN/RIASSUNTO_TONY_CHAN.md",
+		"/c/CASA/LINGUAGGI/RUST/PROGETTI_RUST/TUTORIAL_TONY_CHAN/RIASSUNTO_TONY_CHAN.md",
+		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/User/open_pdf_bat.py",
 		"/C/CASA/LINGUAGGI/SUBLIMETEXT/README_COMANDI_VARI.md",
-		"/c/CASA/LINGUAGGI/SUBLIMETEXT/README_COMANDI_VARI.MD",
-		"/C/CASA/LINGUAGGI/RUST/PROGETTI_RUST/TUTORIAL_TONY_CHAN/README_TUTORIAL_RUST.MD",
-		"/C/CASA/LINGUAGGI/SUBLIMETEXT/README_COMANDI_VARI.MD",
-		"/C/Users/walter.rossi/AppData/Roaming/Sublime Text/Packages/User/Build_ESEGUI_Python.py",
-		"/C/Users/walter.rossi/AppData/Roaming/Sublime Text/Packages/User/Build_ESEGUI_DOS.sublime-build",
-		"/C/CASA/LINGUAGGI/SUBLIMETEXT/README.md",
-		"/c/CASA/LINGUAGGI/SUBLIMETEXT/IMPOSTAZIONI_USER/Build_ESEGUI_DOS.sublime-build",
-		"/c/CASA/LINGUAGGI/SUBLIMETEXT/IMPOSTAZIONI_USER/Build_APRI_CMD.BAT",
-		"/c/CASA/LINGUAGGI/SUBLIMETEXT/README.md",
-		"/c/CASA/LINGUAGGI/SUBLIMETEXT/COPIA_IMPOSTAZIONI_SUBLIMETEXT.BAT",
-		"/c/CASA/LINGUAGGI/SUBLIMETEXT/RUST/stampa_lista_pacchetti/src/main.rs",
-		"/c/CASA/LINGUAGGI/SUBLIMETEXT/RUST/stampa_lista_pacchetti/Cargo.toml",
-		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/User/Package Control.sublime-settings",
-		"/c/CASA/LINGUAGGI/SUBLIMETEXT/STAMPA_LISTA_PACCHETTI_SublimeSettings.ps1",
-		"/c/CASA/LINGUAGGI/SUBLIMETEXT/STAMPA_LISTA_PACCHETTI_SublimeSettings.bat",
-		"/C/CASA/LINGUAGGI/SUBLIMETEXT/STAMPA_LISTA_PACCHETTI_SublimeSettings.bat",
-		"/c/CASA/LINGUAGGI/SUBLIMETEXT/DOCUMENTAZIONE_SUBLIME_TEXT/TUTORIAL_TEMI.MD",
-		"/C/CASA/LINGUAGGI/SUBLIMETEXT/DOCUMENTAZIONE_SUBLIME_TEXT/TEMI.MD",
-		"/C/CASA/LINGUAGGI/SUBLIMETEXT/SUBLIMETEXT.sublime-project",
-		"/C/CASA/LINGUAGGI/RUST/RUST_TUTORIAL/RUST_TUTORIAL.sublime-project",
-		"/C/CASA/LINGUAGGI/RUST/RUST_TUTORIAL/RUST_TUTORIAL_TONY_CHAN/RIASSUNTO_TONY_CHAN.md",
-		"/C/CASA/GE_CASA/GE_MARINO/BANCA/POCKET_OPTION/README_POCKET_OPTION.MD",
-		"/C/CASA/LINGUAGGI/RUST/RUST_TUTORIAL/RUST_TUTORIAL_TONY_CHAN/README.MD",
-		"/C/CASA/LINGUAGGI/RUST/tradingeconomics/README.md",
-		"/C/CASA/LINGUAGGI/RUST/RUST_TUTORIAL/AA________________________________________________________________________AA.txt",
+		"/C/CASA/LINGUAGGI/RUST/PROGETTI_RUST/TUTORIAL_TONY_CHAN/Project_RUST_TONY_CHAN.sublime-project",
+		"/c/Casa/LINGUAGGI/RUST/RUST_TUTORIAL/RUST_TUTORIAL_TONY_CHAN/RIASSUNTO_TONY_CHAN.md",
+		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/User/Build_CMD_APRI_README_COMANDI_VARI.BAT.sublime-build",
+		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/User/PandocToWord.sublime-build",
+		"/C/CASA/LINGUAGGI/RUST/RUST_TUTORIAL/RUST_TUTORIAL_TONY_CHAN/README_TUTORIAL_RUST.MD",
+		"/C/CASA/LINGUAGGI/RUST/RUST_TUTORIAL/RUST_TUTORIAL_TONY_CHAN/README_COMANDI_VARI.MD",
+		"/c/Casa/LINGUAGGI/RUST/RUST_TUTORIAL/RUST_TUTORIAL_TONY_CHAN/README_COMANDI_VARI.MD",
+		"/c/Casa/LINGUAGGI/RUST/RUST_TUTORIAL/RUST_TUTORIAL_TONY_CHAN/Project_RUST_TONY_CHAN.sublime-project",
+		"/c/Casa/LINGUAGGI/RUST/RUST_TUTORIAL/RUST_TUTORIAL_TONY_CHAN/README.MD",
+		"/C/CASA/LINGUAGGI/RUST/RUST_TUTORIAL/RUST_TUTORIAL_TONY_CHAN/Project_RUST_TONY_CHAN.sublime-project",
 		"/c/CASA/LINGUAGGI/RUST/RUST_TUTORIAL/RUST_TUTORIAL_TONY_CHAN/RIASSUNTO_TONY_CHAN.md",
 		"/c/CASA/LINGUAGGI/RUST/RUST_TUTORIAL/RUST_TUTORIAL_TONY_CHAN/RIASSUNTO_TONY_CHAN.html",
 		"/c/CASA/LINGUAGGI/RUST/RUST_TUTORIAL/RUST_TUTORIAL_TONY_CHAN/EXAMPLE/calcolo/src/main.rs",
@@ -192,8 +166,10 @@
 		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/User/Default.sublime-theme",
 		"/c/CASA/LINGUAGGI/RUST/RUST_TUTORIAL/RUST_TUTORIAL_TONY_CHAN/EXAMPLE/st_in/src/main.rs",
 		"/c/CASA/LINGUAGGI/RUST/RUST_TUTORIAL/RUST_TUTORIAL_TONY_CHAN/EXAMPLE/st_io/src/main.rs",
-		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/User/PandocToWord.sublime-build",
 		"/c/CASA/LINGUAGGI/RUST/RUST_TUTORIAL/RUST_TUTORIAL_TONY_CHAN/HomePage.md",
+		"/C/CASA/LINGUAGGI/RUST/RUST_TUTORIAL/RUST_TUTORIAL_TONY_CHAN/RIASSUNTO_TONY_CHAN.md",
+		"/C/CASA/LINGUAGGI/RUST/RUST_TUTORIAL/RUST_TUTORIAL.sublime-project",
+		"/C/CASA/LINGUAGGI/RUST/RUST_TUTORIAL/RUST_TUTORIAL_TONY_CHAN/README.MD",
 		"/C/CASA/LINGUAGGI/RUST/RUST_TUTORIAL/RUST_TUTORIAL_COMPLETO.MD",
 		"/C/CASA/LINGUAGGI/RUST/RUST_TUTORIAL/RUST_PROJECT_TUTORIAL/README_COMANDI_RUST.MD",
 		"/C/CASA/LINGUAGGI/DOS/UTILITA_FILE.MD",
@@ -325,13 +301,6 @@
 		]
 	},
 	"menu_visible": true,
-	"output.Terminus":
-	{
-		"height": 136.800003052,
-		"history":
-		[
-		]
-	},
 	"output.find_results":
 	{
 		"height": 0.0,
@@ -339,8 +308,8 @@
 		[
 		]
 	},
-	"pinned_build_system": "Packages/User/Build_ESEGUI_DOS.sublime-build",
-	"project": "Project_SUBLIMETEXT.sublime-project",
+	"pinned_build_system": "",
+	"project": "Main.sublime-project",
 	"replace":
 	{
 		"height": 52.8

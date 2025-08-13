@@ -67,6 +67,28 @@
       Apro con total commander
             START "APRI SUBLIMETEX CON TOTALCOMMANDER " "C:\Program Files\totalcmd\TOTALCMD64.EXE" /L="C:\Users\icivi\AppData\Roaming\Sublime Text\Packages" /R="C:\Users\icivi\AppData\Roaming\Sublime Text\Packages\User"
 
+
+      menu a 3 livelli, mantenendo i due comandi esistenti e aggiungendo i nuovi segnaposto per 
+      “Utile 3.1 / 3.2” e le nuove voci.
+
+            // TABELLA COMANDI:
+            // ---------------------------------------------------------------------------------------------------------|//
+            // Menu Caption                     | Command JSON                  | Classe Python                         |
+            // ---------------------------------------------------------------------------------------------------------|//
+            // DELIBERE LLPP                    | "apri_delibere_llpp"          | ApriDelibereLlppCommand               |
+            // Utile 3.1 (DETERMINE LLPP)       | "utile_llpp_determine_31"     | UtileLlppDetermine31Command           |
+            // Utile 3.2 (DETERMINE LLPP)       | "utile_llpp_determine_32"     | UtileLlppDetermine32Command           |
+            // Elenco Dipendenti                | "apri_elenco_dipendenti"      | ApriElencoDipendentiCommand           |
+            // APRI_RUST_TONY_CHAN              | "open_pdf_bat"                | OpenPdfBatCommand                     |
+            // README_COMANDI_VARI              | "open_readme"                 | OpenReadmeCommand                     |
+            // Utile 3.1 (Approfondimenti)      | "utile_tutorial_31"           | UtileTutorial31Command                |
+            // Utile 3.2 (Approfondimenti)      | "utile_tutorial_32"           | UtileTutorial32Command                |
+            // Parametri Sublimetext            | "apri_parametri_sublime"      | ApriParametriSublimeCommand           |
+            // Visualizza File Corrente in Text | "visualizza_corrente_txt"     | VisualizzaCorrenteTxtCommand          |
+            // Visualizza File Corrente in Md   | "visualizza_corrente_md"      | VisualizzaCorrenteMdCommand           |
+            // ----------------------------------------------------------------------------------------------------------//
+            
+
 ## GITHUB
    @Progetto@sublimetext@web
       si trova in questa posizione su github:
@@ -173,6 +195,136 @@
       ctrl+shift+t                     = terminale basso
       ctrl+shift+y                     = chiudo il terminale basso
       ctrl+shift+r                     = terminale a destra nuovo tab
+
+ ### CREARE UN MENU PERSONALIZZATO
+      Note
+         per creare un menu personalizzatto occorre utilizzare python per attivare i comandi e creare
+         un file per i menu personalizzati denominato Main.sublime-menu. La posizione del nuova gestione
+         dei comandi deve trovarsi dento la path user:
+
+            START "MENU PERSONALIZZATO" "C:\Users\walter.rossi\AppData\Roaming\Sublime Text\Packages\User\Main.sublime-menu"
+
+      1. Ruolo dei due file
+            Main.sublime-menu → È un file JSON che dice a Sublime Text:
+            “Aggiungi un menu chiamato Strumenti Personalizzati e dentro ci metti queste voci,
+            ognuna associata a un comando.”
+
+            open_pdf_bat.py → È un plugin Python che implementa quei comandi:
+               quando Sublime Text vede il nome del comando nel .sublime-menu,
+               va a cercare la classe Python che lo gestisce.
+
+      2. Come il menu trova la classe giusta
+            Nel file menu hai scritto, ad esempio:
+
+               {
+                   "caption": "APRI_RUST_TONY_CHAN",
+                   "command": "open_pdf_bat"
+                     }
+         Questo "command": "open_pdf_bat" si mappa automaticamente alla classe Python:
+               class OpenPdfBatCommand(sublime_plugin.WindowCommand):
+
+      🔹  Regola fondamentale:
+
+            Il nome del comando (open_pdf_bat) viene dalla classe togliendo
+               la parte Command finale e mettendo tutto minuscolo con gli underscore:
+
+            OpenPdfBatCommand → open_pdf_bat
+            Stessa cosa per l’altro:
+            OpenReadmeCommand → open_readme
+
+            Sublime Text fa questa traduzione in automatico.
+
+
+         3. Come funziona il richiamo
+            Flusso quando clicchi il menu:
+
+            Sublime vede che hai cliccato "command": "open_pdf_bat".
+
+            Cerca una classe Python che corrisponda → trova OpenPdfBatCommand.
+
+            Esegue il metodo run(self) di quella classe.
+
+            Dentro run() fai quello che vuoi (aprire un file, lanciare un comando, ecc.).
+
+
+            Regola di naming:
+               Classe → ApriTestoEsempioCommand
+               Command nel menu → "apri_testo_esempio"
+
+         4. Tipi di comandi
+               Puoi usare varie classi base a seconda dell’uso:
+               WindowCommand → comandi che agiscono su finestre / file aperti.
+               TextCommand → comandi che agiscono sul testo selezionato nel buffer.
+               ApplicationCommand → comandi generali che non dipendono da una finestra specifica.
+
+         6. Consiglio pratico
+            Quando crei più comandi, è comodo:
+            Tenere tutti i comandi in uno stesso file .py nella cartella User
+            oppure
+            Creare un file .py separato per ogni gruppo di comandi, così restano ordinati.
+
+      3. SCHEMA VISIVO
+
+                      ┌─────────────────────┐
+                      │ Main.sublime-menu   │
+                      │ (JSON - definisce   │
+                      │   voci di menu)     │
+                      └─────────┬───────────┘
+                                │
+                    "command": "open_pdf_bat"
+                                │
+                                ▼
+              ┌──────────────────────────────────────┐
+              │ open_pdf_bat.py (Plugin Python)       │
+              │                                       │
+              │ class OpenPdfBatCommand               │
+              │     ↓ naming convention               │
+              │     open_pdf_bat (minuscolo, underscore)
+              └──────────────────────────────────────┘
+                                │
+                        Clic sul menu
+                                │
+                                ▼
+                      Sublime Text esegue
+                      OpenPdfBatCommand.run()
+                                │
+                                ▼
+                  Azione (apre file, mostra messaggi, ecc.)
+
+            Legenda regole di collegamento:
+
+               Nome comando in JSON = Nome classe in Python (senza Command, minuscolo, con _ al posto delle maiuscole).
+
+               OpenPdfBatCommand → "open_pdf_bat"
+
+               OpenReadmeCommand → "open_readme"
+
+               Il metodo run() è ciò che viene eseguito quando clicchi la voce di menu.
+
+               I file .py e .sublime-menu devono stare entrambi in Packages/User.
+
+
+      CONSIDERAZIONE FINALI PER I FILE DI MENU
+         1) I file dei gestione dei menu devono rimanere nella cartella Packages/User/ (o comunque in una cartella che Sublime carica).  
+         2) Le classi Python all’interno (es. OpenPdfBatCommand, ApriDelibereLlppCommand, ecc.) mantengano lo stesso nome.
+         Sublime Text non guarda il nome del file .py per i comandi, ma solo i nomi delle classi e   
+         il relativo comando JSON associato.
+         3) Non ci siano duplicati di classi con lo stesso nome in altri file .py caricati da Sublime.
+
+         💡 In pratica:
+         Il JSON nel Main.sublime-menu contiene righe tipo "command": "open_pdf_bat".
+         Sublime trova quel comando cercando una classe chiamata OpenPdfBatCommand in qualsiasi file .py caricato.
+         Il nome del file .py non influisce, quindi puoi rinominarlo tranquillamente.
+
+      📌 Nota organizzativa
+            Rinominare in Main_attiva_comandi.py è una buona idea per ordine e leggibilità.
+            Io ti consiglio anche di mantenere l’associazione con il menu, ad esempio:
+               Main.sublime-menu
+               Main_attiva_comandi.py
+            così a colpo d’occhio si capisce che sono collegati.
+
+
+
 
 ## COMANDI MARKDOWN
    Preview

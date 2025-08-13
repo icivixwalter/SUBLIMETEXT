@@ -1,0 +1,16 @@
+[
+    {
+        "caption": "Strumenti Personalizzati",
+        "children": [
+            {
+                "caption": "APRI_RUST_TONY_CHAN",
+                "command": "open_pdf_bat"
+            },
+            {
+                "caption": "README_COMANDI_VARI",
+                "command": "open_readme"
+            }
+        ]
+    }
+]
+

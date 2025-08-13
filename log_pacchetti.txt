@@ -38,3 +38,107 @@
 - Terminal
 - Terminus
 5. Elenco pacchetti salvato in: "C:\\CASA\\LINGUAGGI\\SUBLIMETEXT\\sublime_installed_packages.txt"
+1. Avvio stampa elenco pacchetti Sublime Text.
+2. Percorso file di impostazioni: "C:\\Users\\walter.rossi\\AppData\\Roaming\\Sublime Text\\Packages\\User\\Package Control.sublime-settings"
+3. Prime righe del file JSON:
+01: {
+02: 	"bootstrapped": true,
+03: 	"in_process_packages":
+04: 	[
+05: 	],
+06: 	"installed_packages":
+07: 	[
+08: 		"GitHub Flavored Markdown Preview",
+09: 		"Markdown Extended",
+10: 		"Markdown Slideshow",
+11: 		"MarkdownEditing",
+12: 		"MarkdownFootnotes",
+13: 		"MarkdownLivePreview",
+14: 		"MarkdownPreview",
+15: 		"Markmon real-time markdown preview",
+16: 		"Package Control",
+17: 		"Rust Enhanced",
+18: 		"RustAutoComplete",
+19: 		"Terminal",
+20: 		"Terminus"
+21: 	],
+22: }
+Errore parsing JSON: trailing comma at line 22 column 1
+1. Avvio stampa elenco pacchetti Sublime Text.
+2. Percorso file di impostazioni: "C:\\Users\\walter.rossi\\AppData\\Roaming\\Sublime Text\\Packages\\User\\Package Control.sublime-settings"
+3. Prime righe del file JSON:
+01: {
+02: 	"bootstrapped": true,
+03: 	"in_process_packages":
+04: 	[
+05: 	],
+06: 	"installed_packages":
+07: 	[
+08: 		"GitHub Flavored Markdown Preview",
+09: 		"Markdown Extended",
+10: 		"Markdown Slideshow",
+11: 		"MarkdownEditing",
+12: 		"MarkdownFootnotes",
+13: 		"MarkdownLivePreview",
+14: 		"MarkdownPreview",
+15: 		"Markmon real-time markdown preview",
+16: 		"Package Control",
+17: 		"Rust Enhanced",
+18: 		"RustAutoComplete",
+19: 		"Terminal",
+20: 		"Terminus"
+21: 	],
+22: }
+Errore parsing JSON: trailing comma at line 22 column 1
+1. Avvio stampa elenco pacchetti Sublime Text.
+2. Percorso file di impostazioni: "C:\\Users\\walter.rossi\\AppData\\Roaming\\Sublime Text\\Packages\\User\\Package Control.sublime-settings"
+3. Prime righe del file JSON:
+01: {
+02: 	"bootstrapped": true,
+03: 	"in_process_packages":
+04: 	[
+05: 	],
+06: 	"installed_packages":
+07: 	[
+08: 		"GitHub Flavored Markdown Preview",
+09: 		"Markdown Extended",
+10: 		"Markdown Slideshow",
+11: 		"MarkdownEditing",
+12: 		"MarkdownFootnotes",
+13: 		"MarkdownLivePreview",
+14: 		"MarkdownPreview",
+15: 		"Markmon real-time markdown preview",
+16: 		"Package Control",
+17: 		"Rust Enhanced",
+18: 		"RustAutoComplete",
+19: 		"Terminal",
+20: 		"Terminus"
+21: 	],
+22: }
+Errore parsing JSON: trailing comma at line 22 column 1
+1. Avvio stampa elenco pacchetti Sublime Text.
+2. Percorso file di impostazioni: "C:\\Users\\walter.rossi\\AppData\\Roaming\\Sublime Text\\Packages\\User\\Package Control.sublime-settings"
+3. Prime righe del file JSON:
+01: {
+02: 	"bootstrapped": true,
+03: 	"in_process_packages":
+04: 	[
+05: 	],
+06: 	"installed_packages":
+07: 	[
+08: 		"GitHub Flavored Markdown Preview",
+09: 		"Markdown Extended",
+10: 		"Markdown Slideshow",
+11: 		"MarkdownEditing",
+12: 		"MarkdownFootnotes",
+13: 		"MarkdownLivePreview",
+14: 		"MarkdownPreview",
+15: 		"Markmon real-time markdown preview",
+16: 		"Package Control",
+17: 		"Rust Enhanced",
+18: 		"RustAutoComplete",
+19: 		"Terminal",
+20: 		"Terminus"
+21: 	],
+22: }
+Errore parsing JSON: trailing comma at line 22 column 1

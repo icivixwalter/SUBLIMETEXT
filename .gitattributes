@@ -11,10 +11,10 @@
 # per ricontrollare la normalizzazione occorre applicare il comando: git ls-files --eol
 # SINTESI : applicare la normalizzazione:
 #			1) modifica il file					        = .gitattributes
-#			2) attiva la normalizzaione			     = add --renormalize
+#			2) attiva la normalizzaione			     = git add --renormalize SUBLIMETEXT
 #			3) memorizzo il file                     = git commit -m "Update .gitattributes to enforce CRLF endings"
 #        4) controllo la normalizzazione          = git ls-files --eol
-#        5) PUOI UTILIZZARE IL COMANDO UNICO:     = add --renormalize &  git commit -m "Update .gitattributes to enforce CRLF endings" & git ls-files --eol
+#        5) PUOI UTILIZZARE IL COMANDO UNICO:     = git add --renormalize . &  git commit -m "Update .gitattributes to enforce CRLF endings" & git ls-files --eol
 
 
 # Evita di toccare i file binari

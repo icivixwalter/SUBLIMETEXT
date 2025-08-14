@@ -6,6 +6,20 @@
 
             START "APRI PROGETTO SUBLIMETEXT" "C:\CASA\LINGUAGGI\SUBLIMETEXT\SUBLIMETEXT.sublime-project"  
 
+## GUIDA MARK DOWN
+ ### Note
+         si trova qui: https://learnxinyminutes.com/it/markdown/
+   
+               esempio i titoli:
+         
+                        # Questo è un <h1>
+                        ## Questo è un <h2>
+                        ### Questo è un <h3>
+                        #### Questo è un <h4>
+                        ##### Questo è un <h5>
+                        ###### Questo è un <h6>1
+  
+
 ## APERTURA COMANDI SUBLIMETEXT
    Note
       Tutti i file che verrano descritti si trovano in questa path: 
@@ -457,5 +471,5 @@
 
             Le virgolette sono necessarie se ci sono spazi nei percorsi.
 
-            esempio
+            esempio  @TOTAL@COMMANDER
                START "" "C:\Program Files\totalcmd\TOTALCMD64.EXE" /L="C:\Program Files\totalcmd\" /R="C:\Program Files\totalcmd\"

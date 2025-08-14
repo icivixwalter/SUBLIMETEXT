@@ -126,8 +126,9 @@
             
             La cronologia è più pulita e facile da leggere.
 
-
-   @ERRORI@GIT_(errori di gith in ordine alfabetico)
+#### GIT ELENCO ERRORI
+            Note
+               elenco errori per iniziale di lettera. @ERRORI@GIT_(errori di gith in ordine alfabetico)
       A
          ALREADY
             Alreade up to date
@@ -163,6 +164,88 @@
                esempio
                git config user.email "icivixwalter@gmail.com"
                git config user.name "walter"
+
+      U
+         DIRECTORY NON SICURA
+            fatal: unsafe repository ('C:/...' is owned by someone else)
+               risolvere con il comando @safe
+
+
+### COMANDI GIT
+ #### S
+      SAFE DIRECTORY
+
+         UTILITA DEL COMANDO:
+                     @safe@directory@sicura_(comando git per includere in un elenco le directory sicure.)
+
+            "Considera questa cartella come sicura, anche se normalmente Git non lo farebbe".
+            Spiegazione passo-passo:
+               git config → comanda Git di cambiare o leggere una configurazione.
+
+            -- global → applica la modifica a tutti i repository dell’utente sul computer (non solo a quello corrente).
+            -- add → aggiunge un nuovo valore alla lista (non sovrascrive valori esistenti).
+
+            safe.directory → è una configurazione introdotta da Git per motivi di sicurezza (da Git 2.35 in poi).
+            Serve a indicare quali cartelle di repository sono considerate sicure.
+            C:/CASA/LINGUAGGI/JAVA → è il percorso della cartella che vuoi contrassegnare come sicura.
+            📌 Perché serve?
+               Git, per proteggere l’utente, non permette di lavorare in un repository se pensa che la directory possa
+               appartenere a un altro utente o essere non affidabile (ad esempio su file system condivisi).
+               Se ricevi un errore tipo:
+                  fatal: unsafe repository ('C:/...' is owned by someone else)
+               allora con questo comando stai dicendo a Git: "Tranquillo, quella cartella va bene, fidati."
+
+            ✅ Quando usarla
+                  L’opzione safe.directory conviene usarla solo in situazioni in cui sei sicuro che il repository sia davvero sotto il tuo controllo.
+
+                  Repository creato o clonato da te
+                  Sei certo che nessuno possa modificare i file all’insaputa tua.
+
+                  Repository su disco esterno o in rete
+                  Git a volte li segnala come “non sicuri” perché il file system è condiviso o con permessi diversi.
+
+                  Repository spostato tra macchine
+                  Ad esempio, se copi una cartella da un altro PC e Git non riconosce il proprietario.
+
+                  Ambienti di sviluppo aziendali con utenti condivisi
+                  Dove i permessi sono impostati dal reparto IT, ma tu sai che il codice è affidabile.
+
+            ❌ Quando NON usarla
+
+                  Repository ricevuto da fonte sconosciuta
+                  Potrebbe contenere hook Git o script malevoli che si eseguono automaticamente.
+
+                  Percorsi condivisi con utenti non fidati
+                  Ad esempio, cartelle di rete dove altri possono inserire file o modificare Git hooks.
+
+                  Repository scaricato e mai verificato
+                  Prima di “segnarlo sicuro” dovresti controllare il contenuto, soprattutto nella cartella .git/hooks/.
+
+         ESEMPIO AGGIUNGI SAFE PER DEFINIRE UNA CARTELLA SICURA
+            Note
+               indico a git che la cartella è sicura
+
+               git config --global --add safe.directory C:/CASA/LINGUAGGI/JAVA
+
+         ESEMPIO DI CONTROLLO DOPO IL SAFE
+            Note
+               controllo se e quali cartelle sono state definite sicure.
+
+                  git config --global --get-all safe.directory
+
+         ESEMPIO DI RIMOZIONE DELLA SINGOLA CARTELLA DEFINITA SICURA
+            Note
+               esempio di come eliminare dall'elenco le cartelle definite sicure:
+
+                  git config --global --unset safe.directory C:/CASA/LINGUAGGI/JAVA
+
+         ESEMPIO DI RIMOZIONE DI TUTTE LE CARTELLE DEFINITE SICURE
+            Note
+               con "unset" elimino tutte le cartelle definite sicure:
+
+                  git config --global --unset-all safe.directory
+
+
 
 
 ## DOS

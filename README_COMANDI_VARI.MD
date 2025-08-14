@@ -178,6 +178,228 @@
                esempio
                git config user.email "icivixwalter@gmail.com"
                git config user.name "walter"
+      L
+         LF 
+            @LF will be replaced by CRLF the next time Git touches it = 
+            LF sarà sostituito da CRLF la prossima volta che Git lo toccherà.
+                  ESEMPIO DI ERRORE:
+                     warning: in the working copy of 'TUTORIAL_JAVA/JAVA_SCRIPT/TUTORIAL_JAVA_SCRIPT/TUTORIAL_JAVA_SCRIPT.iml', LF will be replaced by CRLF the next time Git touches it     
+                     warning: in the working copy of 'TUTORIAL_JAVA/JAVA_SCRIPT/TUTORIAL_JAVA_SCRIPT/Tutorial_JAVASCRITP.MD', LF will be replaced by CRLF the next time Git touches it  
+
+
+            Cosa significa
+                  LF = Line Feed (\n), tipico dei sistemi Unix/Linux/macOS
+                  CRLF = Carriage Return + Line Feed (\r\n), tipico di Windows
+                  Git sta dicendo:
+                  Quando toccherò questo file (ad esempio in un checkout o in un commit), convertirò le interruzioni di riga da LF a CRLF.
+                  Questo succede perché in Windows Git è spesso configurato con core.autocrlf attivo, così converte automaticamente le fine-riga per compatibilità.
+
+           Come puoi risolvere o ignorare
+               
+               Se vuoi mantenere la conversione automatica (di solito su Windows è ok)
+               Puoi ignorare il warning, non rompe nulla.
+               
+               Se vuoi evitare il warning e mantenere sempre LF
+               NO CONVERSIONE = Puoi dire a Git di non fare la conversione: 
+                  git config core.autocrlf false
+               FORZARE LA CONVERSIONE = Oppure, solo per quel file, puoi forzare lo stile in .gitattributes:
+                  TUTORIAL_JAVA/JAVA_SCRIPT/TUTORIAL_JAVA_SCRIPT/TUTORIAL_JAVA_SCRIPT.iml text eol=lf
+
+          SOLUZIONE PER ATTIVARE I CRL ED ELIMINARE IL WARNING SU LF
+            1 Attivazione CRLF
+               Imposta Git per convertire sempre in CRLF quando scrive nella working directory:
+
+                  git config --global core.autocrlf true
+
+               (Il --global vale per tutti i repository del tuo utente; puoi rimuoverlo se vuoi impostare solo per la repo attuale)
+
+            2 Forzare CRLF per i file del progetto
+
+               Per sicurezza, puoi creare/modificare il file .gitattributes nella root del progetto:
+                     * text eol=crlf
+               Questo dice a Git:
+                  Per tutti i file di testo (* text), usa CRLF come fine riga in locale.
+            3 Applicare la conversione
+               
+               Dopo aver impostato .gitattributes, normalizza i file già presenti:
+                     git add --renormalize 
+                     git commit -m "Update .gitattributes to enforce CRLF endings"
+
+               se vuoi ricontrollare a quale file sono stati applicate le normalizzazione controlla
+               con questo comando:
+                     git ls-files --eol
+
+
+
+            4 Controllo finale
+               
+               Per verificare che l’impostazione sia attiva:
+                  git config core.autocrlf
+
+                  TRUE = vuol dire che Git convertirà automaticamente LF → CRLF quando scarica i file.
+
+            5 IMPOSTO GLI ATTRIBUTI DEL PROGETTO
+                     Ecco un file .gitattributes pensato per mantenere CRLF nei file di testo, 
+                     evitando di toccare i binari o altri formati che potrebbero rompersi.
+
+                        # Imposta CRLF per tutti i file di testo
+                           * text eol=crlf
+                           
+                           # Evita di modificare file binari
+                           *.jpg  binary
+                           *.jpeg binary
+                           *.png  binary
+                           *.gif  binary
+                           *.ico  binary
+                           *.pdf  binary
+                           *.zip  binary
+                           *.gz   binary
+                           *.7z   binary
+                           *.exe  binary
+                           *.dll  binary
+                           *.so   binary
+                           *.class binary
+                           
+                           # File di configurazione IDE (spesso testo, ma tieni CRLF)
+                           *.iml text eol=crlf
+                           *.sublime-project text eol=crlf
+                           *.sublime-workspace text eol=crlf
+                           
+                           # Script (anche se eseguiti su Windows, mantieni CRLF)
+                           *.bat text eol=crlf
+                           *.cmd text eol=crlf
+                           *.ps1 text eol=crlf
+                           
+                           # File markdown e documentazione
+                           *.md text eol=crlf
+                           *.txt text eol=crlf
+                           *.rst text eol=crlf
+                           
+                           # File sorgenti (Java, JavaScript, ecc.)
+                           *.java text eol=crlf
+                           *.js   text eol=crlf
+                           *.ts   text eol=crlf
+                           *.html text eol=crlf
+                           *.css  text eol=crlf
+                           *.xml  text eol=crlf
+                           *.json text eol=crlf
+
+            Come applicarlo
+               1 Crea/modifica il file .gitattributes nella root del repository e incolla il contenuto sopra.
+                     In questo caso come esempio avendo la cartella JAVA in 
+                        C:\CASA\LINGUAGGI\JAVA\
+                         ├─ src\
+                         ├─ README.md
+                         ├─ pom.xml        (se usi Maven)
+                         ├─ .git\          (cartella nascosta di Git)
+                         └─ .gitattributes (qui lo crei)
+                     avendo la cartella il .git alloara viene IDENTFICATA COME @root del @repository.
+                     Qui occorre creare il file .gitattributes.
+
+
+               2 Salva.
+               3 Normalizza i file per applicare le regole (dopo aver integrato il file : .gitattributes) 
+                  git add --renormalize 
+                        Aggiorni gli indici di Git applicando le nuove regole sugli EOL
+                  git commit -m "Apply CRLF line ending rules"
+                        Se ci sono molte modifiche di fine riga, vedrai tanti file “modificati” ma senza cambiamenti di contenuto vero (solo EOL).
+               
+
+               4 Nella colonna w (working directory) vedrai crlf per i file di testo.
+                  git ls-files --eol
+                     Nella colonna w (working directory) vedrai crlf per i file di testo.
+
+
+                  ULTERIORI DEFINIZIONI:
+                     1 Cosa fa * text=auto
+                           
+                           "Rileva automaticamente se un file è di testo o binario e normalizza i file di testo in LF all'interno del repository."
+                           La conversione verso CRLF o LF nella tua working directory dipende da core.autocrlf nella tua configurazione di Git:
+                           core.autocrlf true → converte LF (repo) → CRLF (locale, Windows)
+                           core.autocrlf false → lascia LF anche in locale
+                           📌 Quindi text=auto non forza CRLF, ma segue la configurazione globale/locale di Git.
+
+                     2 Cosa fa * text eol=crlf
+                           "Tratta questi file come testo e forza la conversione in CRLF nella working directory, 
+                           indipendentemente da core.autocrlf."
+                           Mantiene comunque LF nel repository (come raccomanda Git per coerenza e portabilità), 
+                           ma garantisce CRLF quando lavori in locale.
+                           📌 Qui non importa se core.autocrlf è true, false o input: Git seguirà sempre l’istruzione del .gitattributes.
+
+                     3 Perché sostituire text=auto con text eol=crlf
+                        text=auto → comportamento dipendente da configurazione di Git (non sempre prevedibile)
+                        text eol=crlf → comportamento deterministico, sempre CRLF in locale
+                        Se li metti entrambi (text=auto e poi regole CRLF), la prima riga diventa ridondante o può essere sovrascritta dalle regole successive.
+                        Sostituendo direttamente * text=auto con * text eol=crlf, dai un’unica regola chiara per tutti i file di testo.
+
+                     💡 In sintesi
+                           * text eol=crlf = coerenza e zero sorprese.
+                           * text=auto = dipende dalla config di Git → può cambiare da PC a PC.
+
+          MODELLO FILE .GITATTRIBUTES
+            nota
+               il template per la normalizzazione da salvare in .gitattributes è IL SEGUENTE:
+
+                  # NOME FILE : .gitattributes
+                     #
+                     # Auto detect text files and perform CRLF normalization  - 
+                     * text eol=crlf
+                     
+                     
+                     
+                     # REGOLE AGGIUNTE per avere ELIMINAR IL WARNING sui file di testo LF
+                     # dopo aver integrato con queste aggiunte occorre normalizzare i file applicando tali regole
+                     # con i seguenti comandi git add --renormalize + git commit -m "Apply CRLF line ending rules"
+                     # per ricontrollare la normalizzazione occorre applicare il comando: git ls-files --eol
+                     # SINTESI : applicare la normalizzazione:
+                     #        1) modifica il file              = .gitattributes
+                     #        2) attiva la normalizzaione         = add --renormalize
+                     #        3) memorizzo il file             = git commit -m "Update .gitattributes to enforce CRLF endings"
+                     #           4) controllo la normalizzazione  = git ls-files --eol
+                     
+                     
+                     # Evita di toccare i file binari
+                     *.jpg  binary
+                     *.jpeg binary
+                     *.png  binary
+                     *.gif  binary
+                     *.ico  binary
+                     *.pdf  binary
+                     *.zip  binary
+                     *.gz   binary
+                     *.7z   binary
+                     *.exe  binary
+                     *.dll  binary
+                     *.so   binary
+                     *.class binary
+                     
+                     # File di configurazione IDE
+                     *.iml text eol=crlf
+                     *.sublime-project text eol=crlf
+                     *.sublime-workspace text eol=crlf
+                     
+                     # Script Windows
+                     *.bat text eol=crlf
+                     *.cmd text eol=crlf
+                     *.ps1 text eol=crlf
+                     
+                     # Documentazione
+                     *.md text eol=crlf
+                     *.txt text eol=crlf
+                     *.rst text eol=crlf
+                     
+                     # Sorgenti
+                     *.java text eol=crlf
+                     *.js   text eol=crlf
+                     *.ts   text eol=crlf
+                     *.html text eol=crlf
+                     *.css  text eol=crlf
+                     *.xml  text eol=crlf
+                     *.json text eol=crlf
+
+
+
+
 
       U
          DIRECTORY NON SICURA

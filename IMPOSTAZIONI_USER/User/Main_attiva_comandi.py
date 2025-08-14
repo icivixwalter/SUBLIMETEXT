@@ -1,3 +1,9 @@
+    """
+    I commenti vengono fatti con LE VIRGOLETTE
+        FILE Main_attiva_comandi.py
+        """
+
+
 import sublime
 import sublime_plugin
 import os
@@ -70,19 +76,29 @@ class UtileTutorial32Command(sublime_plugin.WindowCommand):
 # ======================================================================
 # PARAMETRI SUBLIMETEXT
 # ======================================================================
+
 class ApriParametriSublimeCommand(sublime_plugin.WindowCommand):
     """
     Apre la cartella 'User' di Sublime Text dove si trovano:
     - File di configurazione personali
     - Plugin e menu creati dall'utente
+        inserita correzione finale
+
+        Sublime Text non “grigierà” mai il menu per questa voce.
+        L’eventuale errore viene gestito solo dentro run() con il messaggio “Cartella non trovata”.
+
     """
     def run(self):
-        cartella = r"C:\Users\walter.rossi\AppData\Roaming\Sublime Text\Packages\User"
+        cartella = os.path.join(sublime.packages_path(), "User")
         if os.path.exists(cartella):
             os.startfile(cartella)  # Apre in Esplora Risorse
             sublime.status_message("Aperta cartella: " + cartella)
         else:
             sublime.error_message("Cartella non trovata: " + cartella)
+
+      def is_enabled(self):
+        return True  # Comando sempre attivo
+
 
 class VisualizzaCorrenteTxtCommand(sublime_plugin.WindowCommand):
     """Crea una copia del file corrente in formato .txt e la apre"""

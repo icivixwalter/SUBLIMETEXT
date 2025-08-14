@@ -15,61 +15,6 @@
 	},
 	"buffers":
 	[
-<<<<<<< HEAD
-=======
-		{
-			"file": "/c/CASA/LINGUAGGI/SUBLIMETEXT/.gitattributes",
-			"settings":
-			{
-				"buffer_size": 1599,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			},
-			"undo_stack":
-			[
-				[
-					9,
-					1,
-					"insert",
-					{
-						"characters": "git"
-					},
-					"AwAAAE0CAAAAAAAATgIAAAAAAAAAAAAATgIAAAAAAABPAgAAAAAAAAAAAABPAgAAAAAAAFACAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAATQIAAAAAAABNAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					10,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAAFACAAAAAAAAUQIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAUAIAAAAAAABQAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					24,
-					1,
-					"insert",
-					{
-						"characters": "git"
-					},
-					"AwAAAEsDAAAAAAAATAMAAAAAAAAAAAAATAMAAAAAAABNAwAAAAAAAAAAAABNAwAAAAAAAE4DAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAASwMAAAAAAABLAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					25,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAAE4DAAAAAAAATwMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAATgMAAAAAAABOAwAAAAAAAAAAAAAAAPC/"
-				]
-			]
-		}
->>>>>>> 3b396103ea5655afc2f9adc04ba99aabb1edf74c
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -204,51 +149,29 @@
 	},
 	"expanded_folders":
 	[
-		"/c/CASA/LINGUAGGI/SUBLIMETEXT",
-		"/c/CASA/LINGUAGGI/SUBLIMETEXT/GIT_BAT"
+		"/c/CASA/LINGUAGGI/SUBLIMETEXT"
 	],
 	"file_history":
 	[
-<<<<<<< HEAD
+		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/User/Build_ESEGUI_Python.py",
+		"/C/CASA/LINGUAGGI/SUBLIMETEXT/README_COMANDI_VARI.md",
+		"/C/CASA/LINGUAGGI/RUST/PROGETTI_RUST/TUTORIAL_TONY_CHAN/RIASSUNTO_TONY_CHAN.md",
+		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/User/Main.sublime-menu",
+		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/User/Main_attiva_comandi.py",
+		"/c/CASA/LINGUAGGI/SUBLIMETEXT/.gitattributes",
 		"/c/CASA/LINGUAGGI/SUBLIMETEXT/README.md",
 		"/c/CASA/LINGUAGGI/SUBLIMETEXT/README_COMANDI_VARI.MD",
-		"/C/CASA/LINGUAGGI/SUBLIMETEXT/README_COMANDI_VARI.md",
 		"/c/CASA/LINGUAGGI/SUBLIMETEXT/DOCUMENTAZIONE_SUBLIME_TEXT/TUTORIAL_TEMI.MD",
 		"/C/CASA/LINGUAGGI/RUST/PROGETTI_RUST/TUTORIAL_TONY_CHAN/RIASSUNTO_TONY_CHAN_COLLASSABILE.md",
 		"/C/CASA/LINGUAGGI/RUST/PROGETTI_RUST/TUTORIAL_TONY_CHAN/HomePage.md",
 		"/c/CASA/LINGUAGGI/SUBLIMETEXT/COPIA_IMPOSTAZIONI_SUBLIMETEXT.BAT",
 		"/C/CASA/LINGUAGGI/SUBLIMETEXT/README_COMANDI_VARI.MD",
-=======
-		"/c/CASA/LINGUAGGI/SUBLIMETEXT/COPIA_IMPOSTAZIONI_SUBLIMETEXT.BAT",
-		"/c/CASA/LINGUAGGI/SUBLIMETEXT/GIT_BAT/git_OpenGitHub.bat",
-		"/c/CASA/LINGUAGGI/SUBLIMETEXT/.gitattributes",
-		"/C/CASA/LINGUAGGI/SUBLIMETEXT/README_COMANDI_VARI.md",
-		"/C/CASA/LINGUAGGI/JAVA/Project_JAVA.md",
-		"/c/CASA/LINGUAGGI/JAVA/GIT_BAT/git_STATUS+ADD+COMMIT+PUSH.BAT",
-		"/c/CASA/LINGUAGGI/JAVA/GIT_BAT/git_COMMIT.BAT",
-		"/c/CASA/LINGUAGGI/JAVA/GIT_BAT/git_OpenGitHub.bat",
-		"/c/CASA/LINGUAGGI/JAVA/GIT_BAT/git_Repository.txt",
-		"/c/CASA/LINGUAGGI/JAVA/README_JAVA.MD",
-		"/C/CASA/LINGUAGGI/JAVA/Project_JAVA.sublime-project",
-		"/C/CASA/LINGUAGGI/JAVA/README_JAVA.MD",
-		"/c/CASA/LINGUAGGI/SUBLIMETEXT/README.md",
-		"/C/CASA/LINGUAGGI/RUST/PROGETTI_RUST/TUTORIAL_TONY_CHAN/RIASSUNTO_TONY_CHAN.md",
-		"/c/CASA/LINGUAGGI/SUBLIMETEXT/README_COMANDI_VARI.MD",
-		"/C/CASA/LINGUAGGI/RUST/PROGETTI_RUST/TUTORIAL_TONY_CHAN/README_TUTORIAL_RUST.MD",
-		"/C/CASA/LINGUAGGI/SUBLIMETEXT/README_COMANDI_VARI.MD",
-		"/C/Users/walter.rossi/AppData/Roaming/Sublime Text/Packages/User/Build_ESEGUI_Python.py",
-		"/C/Users/walter.rossi/AppData/Roaming/Sublime Text/Packages/User/Build_ESEGUI_DOS.sublime-build",
-		"/C/CASA/LINGUAGGI/SUBLIMETEXT/README.md",
-		"/c/CASA/LINGUAGGI/SUBLIMETEXT/IMPOSTAZIONI_USER/Build_ESEGUI_DOS.sublime-build",
-		"/c/CASA/LINGUAGGI/SUBLIMETEXT/IMPOSTAZIONI_USER/Build_APRI_CMD.BAT",
->>>>>>> 3b396103ea5655afc2f9adc04ba99aabb1edf74c
 		"/c/CASA/LINGUAGGI/SUBLIMETEXT/RUST/stampa_lista_pacchetti/src/main.rs",
 		"/c/CASA/LINGUAGGI/SUBLIMETEXT/RUST/stampa_lista_pacchetti/Cargo.toml",
 		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/User/Package Control.sublime-settings",
 		"/c/CASA/LINGUAGGI/SUBLIMETEXT/STAMPA_LISTA_PACCHETTI_SublimeSettings.ps1",
 		"/c/CASA/LINGUAGGI/SUBLIMETEXT/STAMPA_LISTA_PACCHETTI_SublimeSettings.bat",
 		"/C/CASA/LINGUAGGI/SUBLIMETEXT/STAMPA_LISTA_PACCHETTI_SublimeSettings.bat",
-		"/c/CASA/LINGUAGGI/SUBLIMETEXT/DOCUMENTAZIONE_SUBLIME_TEXT/TUTORIAL_TEMI.MD",
 		"/C/CASA/LINGUAGGI/SUBLIMETEXT/DOCUMENTAZIONE_SUBLIME_TEXT/TEMI.MD",
 		"/C/CASA/LINGUAGGI/SUBLIMETEXT/SUBLIMETEXT.sublime-project",
 		"/C/CASA/LINGUAGGI/RUST/RUST_TUTORIAL/RUST_TUTORIAL.sublime-project",
@@ -347,6 +270,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ApriParametriSublimeCommand"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -368,39 +292,6 @@
 		{
 			"sheets":
 			[
-<<<<<<< HEAD
-=======
-				{
-					"buffer": 0,
-					"file": "/c/CASA/LINGUAGGI/SUBLIMETEXT/.gitattributes",
-					"selected": true,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1599,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								951,
-								951
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Git Formats/Git Attributes.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 171.2,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				}
->>>>>>> 3b396103ea5655afc2f9adc04ba99aabb1edf74c
 			]
 		}
 	],
@@ -437,7 +328,7 @@
 	"menu_visible": true,
 	"output.Terminus":
 	{
-		"height": 136.800003052,
+		"height": 172.800003052,
 		"history":
 		[
 		]
@@ -449,7 +340,7 @@
 		[
 		]
 	},
-	"pinned_build_system": "Packages/User/Build_ESEGUI_DOS.sublime-build",
+	"pinned_build_system": "",
 	"project": "Project_SUBLIMETEXT.sublime-project",
 	"replace":
 	{

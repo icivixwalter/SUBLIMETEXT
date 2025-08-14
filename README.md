@@ -8,6 +8,10 @@ sublime text
 	corrente con pull, poi aggiungi al branch corrente, fare il commit ed infine il push
 
 		git pull & git add . & git commit -m "agg sublimetext casa" & git push
+<<<<<<< HEAD
+
+=======
+>>>>>>> 68b4da756c509e7b2d3aceb5a08b5e68fe276600
 		
 ## file rust .ext
 	con il file eseguibile stampa_lista_pacchetti.exe stampo e visualizzo su un file

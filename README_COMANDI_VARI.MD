@@ -160,24 +160,6 @@
             Sul ramo principale
             Il tuo ramo è avanti rispetto a origin/main di 1 commit (usa git push per pubblicare i tuoi commit locali)
             notare di impegnarsi, lavora sull'albero in modo pulito.
-      P
-         PROFILO GIT
-            per i profilo git questa è l'utenza
-            email: icivixwalter@gmail.com
-            passw: walter_01_
-
-            per configurare il profilo per tutto utilizzo globale con questi comandi
-               git config --global user.email "you@example.com"
-               git config --global user.name "Your Name"
-
-            se vuoi impostar il profilo solo per la  repository
-            corrente utilizza:
-            git config user.email "you@example.com"
-            git config user.name "Your Name"
-
-               esempio
-               git config user.email "icivixwalter@gmail.com"
-               git config user.name "walter"
       L
          LF 
             @LF will be replaced by CRLF the next time Git touches it = 
@@ -201,7 +183,9 @@
                
                Se vuoi evitare il warning e mantenere sempre LF
                NO CONVERSIONE = Puoi dire a Git di non fare la conversione: 
+                  
                   git config core.autocrlf false
+
                FORZARE LA CONVERSIONE = Oppure, solo per quel file, puoi forzare lo stile in .gitattributes:
                   TUTORIAL_JAVA/JAVA_SCRIPT/TUTORIAL_JAVA_SCRIPT/TUTORIAL_JAVA_SCRIPT.iml text eol=lf
 
@@ -217,8 +201,10 @@
 
                Per sicurezza, puoi creare/modificare il file .gitattributes nella root del progetto:
                      * text eol=crlf
+
                Questo dice a Git:
                   Per tutti i file di testo (* text), usa CRLF come fine riga in locale.
+            
             3 Applicare la conversione
                
                Dopo aver impostato .gitattributes, normalizza i file già presenti:
@@ -396,6 +382,25 @@
                      *.css  text eol=crlf
                      *.xml  text eol=crlf
                      *.json text eol=crlf
+      P
+         PROFILO GIT
+            per i profilo git questa è l'utenza
+            email: icivixwalter@gmail.com
+            passw: walter_01_
+
+            per configurare il profilo per tutto utilizzo globale con questi comandi
+               git config --global user.email "you@example.com"
+               git config --global user.name "Your Name"
+
+            se vuoi impostar il profilo solo per la  repository
+            corrente utilizza:
+            git config user.email "you@example.com"
+            git config user.name "Your Name"
+
+               esempio
+               git config user.email "icivixwalter@gmail.com"
+               git config user.name "walter"
+      
 
 
 
@@ -486,7 +491,17 @@
 
 ## DOS
      SALVATAGGI SU FILE DI TESTO
-        dir /A /b *.*  >> A.TXT           = salvo su a.txt le cartellse senza path
+        dir /A /b *.*  > A.TXT           = salvo su a.txt le cartelle senza path
+        dir /A /B /S *.* > A.TXT         = salvo su a.txt le cartelle + le sottocartelle senza path
+            /A → mostra tutti i file, compresi quelli nascosti e di sistema.
+            /B → usa il formato “bare”, cioè solo il percorso e il nome del file senza intestazioni o sommari.
+            /S → include tutte le sottocartelle.
+            *.* → tutti i file.
+
+
+
+
+
         dir /s /b >> output.txt           = salvo tutte le sotto cartelle ed i file con la path completa
         dir *.* /w >a.txt                 = salvo
      COMANDO DOS CHE PULISICE IL WORKSPACE DI SUBLIMETEXT

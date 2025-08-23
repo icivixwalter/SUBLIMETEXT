@@ -11,3 +11,37 @@
 [2025-08-14 20:35:19] Inizializzazione: ApriReadmeCommand istanziata
 [2025-08-14 20:35:21] Esecuzione ApriParametriSublimeCommand.run()
 [2025-08-14 20:35:21] Apertura cartella configurazione: C:\Users\icivi\AppData\Roaming\Sublime Text\Packages
+[2025-08-14 20:35:43] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2025-08-14 20:35:44] Inizializzazione: ApriReadmeCommand istanziata
+[2025-08-16 13:00:29] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2025-08-16 13:00:32] Inizializzazione: ApriReadmeCommand istanziata
+[2025-08-16 20:41:05] Inizializzazione: ApriReadmeCommand istanziata
+[2025-08-16 20:42:14] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2025-08-16 20:42:15] Inizializzazione: ApriReadmeCommand istanziata
+[2025-08-17 12:20:39] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2025-08-17 12:20:43] Inizializzazione: ApriReadmeCommand istanziata
+[2025-08-17 12:35:03] Inizializzazione: ApriReadmeCommand istanziata
+[2025-08-17 17:02:43] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2025-08-17 17:02:49] Inizializzazione: ApriReadmeCommand istanziata
+[2025-08-17 17:03:34] Esecuzione ApriParametriSublimeCommand.run()
+[2025-08-17 17:03:34] Apertura cartella configurazione: C:\Users\icivi\AppData\Roaming\Sublime Text\Packages
+[2025-08-17 17:10:01] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2025-08-17 17:10:05] Inizializzazione: ApriReadmeCommand istanziata
+[2025-08-17 17:10:32] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2025-08-17 17:10:36] Inizializzazione: ApriReadmeCommand istanziata
+[2025-08-17 17:20:19] Inizializzazione: ApriReadmeCommand istanziata
+[2025-08-17 17:21:56] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2025-08-17 17:21:57] Inizializzazione: ApriReadmeCommand istanziata
+[2025-08-17 18:37:42] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2025-08-17 18:38:04] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2025-08-17 18:38:08] Inizializzazione: ApriReadmeCommand istanziata
+[2025-08-17 19:01:46] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2025-08-17 19:02:03] Inizializzazione: ApriReadmeCommand istanziata
+[2025-08-17 19:02:28] Inizializzazione: ApriReadmeCommand istanziata
+[2025-08-17 19:06:07] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2025-08-17 19:06:09] Inizializzazione: ApriReadmeCommand istanziata
+[2025-08-19 19:48:51] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2025-08-19 19:49:37] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2025-08-19 19:50:12] Inizializzazione: ApriReadmeCommand istanziata
+[2025-08-19 19:50:40] Esecuzione ApriParametriSublimeCommand.run()
+[2025-08-19 19:50:40] Apertura cartella configurazione: C:\Users\icivi\AppData\Roaming\Sublime Text\Packages

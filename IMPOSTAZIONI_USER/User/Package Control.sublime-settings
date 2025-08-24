@@ -16,7 +16,8 @@
 		"Package Control",
 		"Rust Enhanced",
 		"RustAutoComplete",
+		"SublimeREPL",
 		"Terminal",
-		"Terminus"
+		"Terminus",
 	],
 }

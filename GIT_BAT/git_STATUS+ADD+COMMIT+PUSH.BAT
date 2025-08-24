@@ -5,6 +5,7 @@ dir
 
 @REM  fai un controllo con status, poi aggiungi con add tutto l'albero + il comimit e il push
 git status
+git pull
 
 ECHO pausa di 3 secondi per il controllo
 @TIMEOUT /T 3 /NOBREAK

@@ -628,7 +628,7 @@
                 pause
 
 ## SUBLIMETEXT
- ## APERTURA COMANDI SUBLIMETEXT
+ ### APERTURA COMANDI SUBLIMETEXT
       Note
          Tutti i file che verrano descritti si trovano in questa path:
             Directory di CHE PUO ESSERE APERTA con questo comando:
@@ -709,7 +709,7 @@
                // Visualizza File Corrente in Text | "visualizza_corrente_txt"     | VisualizzaCorrenteTxtCommand          |
                // Visualizza File Corrente in Md   | "visualizza_corrente_md"      | VisualizzaCorrenteMdCommand           |
                // ----------------------------------------------------------------------------------------------------------//
-   ###   Comandi contenuti in Preferences-->Key Bindings
+   ### Comandi contenuti in Preferences-->Key Bindings
 
          ctrl+shift+t                     = terminale basso
          ctrl+shift+y                     = chiudo il terminale basso

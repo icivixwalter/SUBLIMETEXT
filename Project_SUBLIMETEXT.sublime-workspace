@@ -16,12 +16,102 @@
 	"buffers":
 	[
 		{
+			"contents": "Package Control Messages\n========================\n\n\nMarkdownEditing\n---------------\n\n  # MarkdownEditing\n  \n  Thanks for installing MarkdownEditing.\n  \n  This package provides \n  \n  *   useful Markdown editing features for Sublime Text \n  *   color schemes optimized for writing\n  *   robust syntax definitions for\n      -   Standard Markdown\n      -   Github flavored Markdown\n      -   MultiMarkdown\n  \n  User Guide is available at https://sublimetext-markdown.github.io/MarkdownEditing\n  \n  Bugs or feedback via https://github.com/SublimeText-Markdown/MarkdownEditing/issues\n\n\nMarkdownLivePreview\n-------------------\n\n   __  __            _       _                     _      _           _____                _\n  |  \\/  |          | |     | |                   | |    (_)         |  __ \\              (_)\n  | \\  / | __ _ _ __| | ____| | _____      ___ __ | |     ___   _____| |__) | __ _____   ___  _____      __\n  | |\\/| |/ _` | '__| |/ / _` |/ _ \\ \\ /\\ / / '_ \\| |    | \\ \\ / / _ \\  ___/ '__/ _ \\ \\ / / |/ _ \\ \\ /\\ / /\n  | |  | | (_| | |  |   < (_| | (_) \\ V  V /| | | | |____| |\\ V /  __/ |   | | |  __/\\ V /| |  __/\\ V  V /\n  |_|  |_|\\__,_|_|  |_|\\_\\__,_|\\___/ \\_/\\_/ |_| |_|______|_| \\_/ \\___|_|   |_|  \\___| \\_/ |_|\\___| \\_/\\_/\n  \n  Thanks for installing MarkdownLivePreview! I hope you'll enjoy using it!\n  \n  Quick Start:\n  ~~~~~~~~~~~~\n  \n  To enable MarkdownLivePreview, you need to be on a markdown view (works with\n  Markdown Extended). Then just press `alt+m`, or search up in the command\n  palette: 'MarkdownLivePreview: Toggle'. Hit enter and you're done. As soon as\n  you type anything in, it'll show up with the preview in a new group.\n  \n  Say thanks:\n  ~~~~~~~~~~~\n  \n  Just letting me know you're enjoying this plugin is a great way to say thanks!\n  \n  You can do so by staring the GitHub repo, or sending a tweet (@_math2001) for\n  example!\n  \n  Troubles?\n  ~~~~~~~~~\n  \n  If you have any kind of trouble with it, just let me now by raising an issue on\n  the GitHub issue tracker here:\n  \n  https://github.com/math2001/MarkdownLivePreview/issues\n  \n  Tip of the day: Right click on a URL and choose 'Open <the url>' to open it in\n                  your default browser.\n  \n  Credits:\n  ~~~~~~~~\n  \n  The ASCII MLP has been generated using the ASCII Decorator.\n  \n  https://github.com/viisual/ASCII-Decorator\n\n\nMarkdownPreview\n---------------\n\n  # MarkdownPreview\n  \n  Welcome to MarkdownPreview!\n  \n  A restart of Sublime Text is recommended to ensure all dependencies get  \n  loaded properly.\n  \n  For information on how to use, check out the documentation:\n  https://facelessuser.github.io/MarkdownPreview/.\n\n\nMarkmon real-time markdown preview\n----------------------------------\n\n  # Sublime Text 3 - Markmon\n  \n  SublimeText 3 integration with [Markmon](https://github.com/yyjhao/markmon)\n  for real-time markdown preview with mathjax support.\n  \n  ![markmon](http://yjyao.com/images/markmon.gif)\n  \n  ## Important note\n  \n  You have to install [Markmon](https://github.com/yyjhao/markmon) separately for\n  this plugin to work. You can do so by\n  \n  ```bash\n  npm install -g markmon\n  ```\n  \n  Note that markmon relies on [Node.js](http://nodejs.org).\n  \n  Markmon does not come with its own markdown converter so you will need to install your own. I recommend [pandoc](http://johnmacfarlane.net/pandoc/installing.html). **Currently mathjax\n  support is limited to pandoc only.**\n  \n  If you want to customize your pandoc parameters or use a converter other than\n  pandoc, go to  Sublime Text → Preferences → Package Settings → Markmon →\n  Settings(User) and update the 'command' parameter according to\n  Settings(Default). More information about the parameters can be found in the documentation for [Markmon](https://github.com/yyjhao/markmon).\n  \n  ## Installation Instructions\n  \n  **Package Installer:**\n  \n  * Install [Sublime Package Control](http://wbond.net/sublime_packages/package_control)\n  * Select \"Package Control: Install Package\" from the Command Palette (⌘⇧P)\n  * Find \"Markmon\" and select\n  \n  **Manually:**\n  \n  * Download [sublime-text-markmon](https://github.com/yyjhao/sublime-text-markmon/archive/master.zip) and copy unzipped folder to your Sublime Text packages folder (Sublime Text → Preferences → Browse Packages...)\n  * Restart Sublime Text\n  \n  ## Usage\n  \n  First note that markmon only watches your views with markdown syntax, so be sure\n  to check the syntax setting.\n  \n  **Command Palette:**\n  \n  * Select \"Markmon launch\" from the Command Palette (⌘⇧P)\n  \n  **Keyboard Shortcut:**\n  \n  You can check the default short cut by going to Sublime Text → Preferences →\n  Package Settings → Markmon → Key Bindings - Default.\n  \n  **Menus:**\n  \n  * Select Tools → markmon\n  \n  ## Acknowledgment\n  \n  I use [sublime-text-marked](https://github.com/icio/sublime-text-marked) and\n  [SublimeLinter3](https://github.com/SublimeLinter/SublimeLinter3) as templates\n  for this plugin.\n",
+			"settings":
+			{
+				"buffer_size": 4932,
+				"line_ending": "Windows",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			},
+			"undo_stack":
+			[
+				[
+					1,
+					1,
+					"package_control_message",
+					{
+						"message": "\n\nMarkdownEditing\n---------------\n\n  # MarkdownEditing\n  \n  Thanks for installing MarkdownEditing.\n  \n  This package provides \n  \n  *   useful Markdown editing features for Sublime Text \n  *   color schemes optimized for writing\n  *   robust syntax definitions for\n      -   Standard Markdown\n      -   Github flavored Markdown\n      -   MultiMarkdown\n  \n  User Guide is available at https://sublimetext-markdown.github.io/MarkdownEditing\n  \n  Bugs or feedback via https://github.com/SublimeText-Markdown/MarkdownEditing/issues\n"
+					},
+					"AQAAAAAAAAAAAAAAQgIAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					2,
+					1,
+					"package_control_message",
+					{
+						"message": "\n\nMarkdownLivePreview\n-------------------\n\n   __  __            _       _                     _      _           _____                _\n  |  \\/  |          | |     | |                   | |    (_)         |  __ \\              (_)\n  | \\  / | __ _ _ __| | ____| | _____      ___ __ | |     ___   _____| |__) | __ _____   ___  _____      __\n  | |\\/| |/ _` | '__| |/ / _` |/ _ \\ \\ /\\ / / '_ \\| |    | \\ \\ / / _ \\  ___/ '__/ _ \\ \\ / / |/ _ \\ \\ /\\ / /\n  | |  | | (_| | |  |   < (_| | (_) \\ V  V /| | | | |____| |\\ V /  __/ |   | | |  __/\\ V /| |  __/\\ V  V /\n  |_|  |_|\\__,_|_|  |_|\\_\\__,_|\\___/ \\_/\\_/ |_| |_|______|_| \\_/ \\___|_|   |_|  \\___| \\_/ |_|\\___| \\_/\\_/\n  \n  Thanks for installing MarkdownLivePreview! I hope you'll enjoy using it!\n  \n  Quick Start:\n  ~~~~~~~~~~~~\n  \n  To enable MarkdownLivePreview, you need to be on a markdown view (works with\n  Markdown Extended). Then just press `alt+m`, or search up in the command\n  palette: 'MarkdownLivePreview: Toggle'. Hit enter and you're done. As soon as\n  you type anything in, it'll show up with the preview in a new group.\n  \n  Say thanks:\n  ~~~~~~~~~~~\n  \n  Just letting me know you're enjoying this plugin is a great way to say thanks!\n  \n  You can do so by staring the GitHub repo, or sending a tweet (@_math2001) for\n  example!\n  \n  Troubles?\n  ~~~~~~~~~\n  \n  If you have any kind of trouble with it, just let me now by raising an issue on\n  the GitHub issue tracker here:\n  \n  https://github.com/math2001/MarkdownLivePreview/issues\n  \n  Tip of the day: Right click on a URL and choose 'Open <the url>' to open it in\n                  your default browser.\n  \n  Credits:\n  ~~~~~~~~\n  \n  The ASCII MLP has been generated using the ASCII Decorator.\n  \n  https://github.com/viisual/ASCII-Decorator\n"
+					},
+					"AQAAAEICAAAAAAAAHAkAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABCAgAAAAAAAEICAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					3,
+					1,
+					"package_control_message",
+					{
+						"message": "\n\nMarkdownPreview\n---------------\n\n  # MarkdownPreview\n  \n  Welcome to MarkdownPreview!\n  \n  A restart of Sublime Text is recommended to ensure all dependencies get  \n  loaded properly.\n  \n  For information on how to use, check out the documentation:\n  https://facelessuser.github.io/MarkdownPreview/.\n"
+					},
+					"AQAAABwJAAAAAAAASgoAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAcCQAAAAAAABwJAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					4,
+					1,
+					"package_control_message",
+					{
+						"message": "\n\nMarkmon real-time markdown preview\n----------------------------------\n\n  # Sublime Text 3 - Markmon\n  \n  SublimeText 3 integration with [Markmon](https://github.com/yyjhao/markmon)\n  for real-time markdown preview with mathjax support.\n  \n  ![markmon](http://yjyao.com/images/markmon.gif)\n  \n  ## Important note\n  \n  You have to install [Markmon](https://github.com/yyjhao/markmon) separately for\n  this plugin to work. You can do so by\n  \n  ```bash\n  npm install -g markmon\n  ```\n  \n  Note that markmon relies on [Node.js](http://nodejs.org).\n  \n  Markmon does not come with its own markdown converter so you will need to install your own. I recommend [pandoc](http://johnmacfarlane.net/pandoc/installing.html). **Currently mathjax\n  support is limited to pandoc only.**\n  \n  If you want to customize your pandoc parameters or use a converter other than\n  pandoc, go to  Sublime Text → Preferences → Package Settings → Markmon →\n  Settings(User) and update the 'command' parameter according to\n  Settings(Default). More information about the parameters can be found in the documentation for [Markmon](https://github.com/yyjhao/markmon).\n  \n  ## Installation Instructions\n  \n  **Package Installer:**\n  \n  * Install [Sublime Package Control](http://wbond.net/sublime_packages/package_control)\n  * Select \"Package Control: Install Package\" from the Command Palette (⌘⇧P)\n  * Find \"Markmon\" and select\n  \n  **Manually:**\n  \n  * Download [sublime-text-markmon](https://github.com/yyjhao/sublime-text-markmon/archive/master.zip) and copy unzipped folder to your Sublime Text packages folder (Sublime Text → Preferences → Browse Packages...)\n  * Restart Sublime Text\n  \n  ## Usage\n  \n  First note that markmon only watches your views with markdown syntax, so be sure\n  to check the syntax setting.\n  \n  **Command Palette:**\n  \n  * Select \"Markmon launch\" from the Command Palette (⌘⇧P)\n  \n  **Keyboard Shortcut:**\n  \n  You can check the default short cut by going to Sublime Text → Preferences →\n  Package Settings → Markmon → Key Bindings - Default.\n  \n  **Menus:**\n  \n  * Select Tools → markmon\n  \n  ## Acknowledgment\n  \n  I use [sublime-text-marked](https://github.com/icio/sublime-text-marked) and\n  [SublimeLinter3](https://github.com/SublimeLinter/SublimeLinter3) as templates\n  for this plugin.\n"
+					},
+					"AQAAAEoKAAAAAAAARBMAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABKCgAAAAAAAEoKAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		},
+		{
 			"contents": "",
 			"settings":
 			{
 				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
+		},
+		{
+			"file": "README_COMANDI_VARI.md",
+			"settings":
+			{
+				"buffer_size": 34545,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+			]
+		},
+		{
+			"contents": "---\nmeta:\n    author: Jon Doe\n    topic: Samples\n---\n# A sample Markdown document\n\nThis is a sample document so you can preview the color schemes.\n\n## Text Formatting\n\nMarkdown supports _italics_, __bold__, and ___bold italics___ style using underscores.\n\nMarkdown supports *italics*, **bold**, and ***bold italics*** style using asterisks.\n\nThere are also inline styles like `inline code in monospace font` and ~~strikethrough style~~.\n\n__There may be ~~strikethroughed text~~ or `code text` inside bold text.__\n\n_And There may be ~~strikethroughed text~~ or `code text` inside italic text._\n\n> __Here is some quotation__. Lorem ~~ipsum~~ dolor sit amet, consectetur  \n> adipisicing elit, *sed* do eiusmod tempor incididunt ut labore et\n> dolore magna aliqua. Ut enim <b>ad</b> minim <kbd>veniam</kbd>, quis nostrud exercitation.\n> \n> <code>\n>   code block\n> </code>\n\nInline <kbd>key</kbd> or ~~<kbd>key</kbd>~~ other <b>bold html</b> tags.\n\n<table align=\"center\">\n    <tr width=\"85%\">\n        <td>column&nbsp;text</td>\n    </tr>\n</table>\n\n## Links and References\n\nTo reference something from a URL, [Named Links][links],\n[Inline links](https://example.com/index.html \"Description\") and direct link like <https://example.com/>\nare of great help. Sometimes ![A picture][sample image] is worth a thousand words.\n\n---\n\nThis [[SamplePage]] is a wiki link.\n\n## Lists\n\nThere are two types of lists, ordered and unordered.\n\n1. Item 1 \n   <kbd>key</kbd>\n2. Item 2\n3. Item 3\n\n1) Item 1\n2) Item 2\n3) Item 3\n\n* Item A\n    - Sub list\n        + Sub sub list\n        + Sub sub list 2\n    - Sub list 2\n* Item B\n* Item C\n\n## Tables\n\nCol 1 | Col 2\n-----:|-------\nwhat  | else\n\n## Code Blocks\n\nAnything indented more than 3 characters is treated as raw code block.\n\n    function fibo(n) {\n        fibo.mem = fibo.mem || []; // I am some comment\n        return fibo.mem[n] || fibo.mem[n] = n <= 1 ? 1 : fibo(n - 1) + fibo(n - 2);\n\nFenced code blocks support syntax highlighting and are wrapped in triple backticks.\n\n```javascript\nfunction fibo(n) {\n    fibo.mem = fibo.mem || []; // I am some comment\n    return fibo.mem[n] || fibo.mem[n] = n <= 1 ? 1 : fibo(n - 1) + fibo(n - 2);\n}\n```\n\n```diff\ndiff --git a/schemes/Preview.md b/schemes/Preview.md\nindex 3d4b1fe..a85a22a 100644\n--- a/schemes/Preview.md\n+++ b/schemes/Preview.md\n@@ -89,6 +89,12 @@ function fibo(n) {\n \n-## Deleted\n+## Inserted\n```\n\n## CriticMarkup\n\nThis is {++ inserted ++} and {-- deleted --} or {== highlighted ==}{>> comment <<} text.\n\nWe can also {~~ substitute ~> something ~~}.\n\n## Reference Definitions\n\n[^1]: This is a footnote definition\n\n[links]: https://example.com/index.html\n[sample image]: https://example.com/sample.png\n",
+			"settings":
+			{
+				"buffer_size": 2684,
+				"line_ending": "Windows",
+				"name": "A sample Markdown document",
+				"read_only": true,
+				"scratch": true
+			},
+			"undo_stack":
+			[
+				[
+					1,
+					1,
+					"append",
+					{
+						"characters": "---\nmeta:\n    author: Jon Doe\n    topic: Samples\n---\n# A sample Markdown document\n\nThis is a sample document so you can preview the color schemes.\n\n## Text Formatting\n\nMarkdown supports _italics_, __bold__, and ___bold italics___ style using underscores.\n\nMarkdown supports *italics*, **bold**, and ***bold italics*** style using asterisks.\n\nThere are also inline styles like `inline code in monospace font` and ~~strikethrough style~~.\n\n__There may be ~~strikethroughed text~~ or `code text` inside bold text.__\n\n_And There may be ~~strikethroughed text~~ or `code text` inside italic text._\n\n> __Here is some quotation__. Lorem ~~ipsum~~ dolor sit amet, consectetur  \n> adipisicing elit, *sed* do eiusmod tempor incididunt ut labore et\n> dolore magna aliqua. Ut enim <b>ad</b> minim <kbd>veniam</kbd>, quis nostrud exercitation.\n> \n> <code>\n>   code block\n> </code>\n\nInline <kbd>key</kbd> or ~~<kbd>key</kbd>~~ other <b>bold html</b> tags.\n\n<table align=\"center\">\n    <tr width=\"85%\">\n        <td>column&nbsp;text</td>\n    </tr>\n</table>\n\n## Links and References\n\nTo reference something from a URL, [Named Links][links],\n[Inline links](https://example.com/index.html \"Description\") and direct link like <https://example.com/>\nare of great help. Sometimes ![A picture][sample image] is worth a thousand words.\n\n---\n\nThis [[SamplePage]] is a wiki link.\n\n## Lists\n\nThere are two types of lists, ordered and unordered.\n\n1. Item 1 \n   <kbd>key</kbd>\n2. Item 2\n3. Item 3\n\n1) Item 1\n2) Item 2\n3) Item 3\n\n* Item A\n    - Sub list\n        + Sub sub list\n        + Sub sub list 2\n    - Sub list 2\n* Item B\n* Item C\n\n## Tables\n\nCol 1 | Col 2\n-----:|-------\nwhat  | else\n\n## Code Blocks\n\nAnything indented more than 3 characters is treated as raw code block.\n\n    function fibo(n) {\n        fibo.mem = fibo.mem || []; // I am some comment\n        return fibo.mem[n] || fibo.mem[n] = n <= 1 ? 1 : fibo(n - 1) + fibo(n - 2);\n\nFenced code blocks support syntax highlighting and are wrapped in triple backticks.\n\n```javascript\nfunction fibo(n) {\n    fibo.mem = fibo.mem || []; // I am some comment\n    return fibo.mem[n] || fibo.mem[n] = n <= 1 ? 1 : fibo(n - 1) + fibo(n - 2);\n}\n```\n\n```diff\ndiff --git a/schemes/Preview.md b/schemes/Preview.md\nindex 3d4b1fe..a85a22a 100644\n--- a/schemes/Preview.md\n+++ b/schemes/Preview.md\n@@ -89,6 +89,12 @@ function fibo(n) {\n \n-## Deleted\n+## Inserted\n```\n\n## CriticMarkup\n\nThis is {++ inserted ++} and {-- deleted --} or {== highlighted ==}{>> comment <<} text.\n\nWe can also {~~ substitute ~> something ~~}.\n\n## Reference Definitions\n\n[^1]: This is a footnote definition\n\n[links]: https://example.com/index.html\n[sample image]: https://example.com/sample.png\n"
+					},
+					"AQAAAAAAAAAAAAAAfAoAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
 		}
 	],
 	"build_system": "",
@@ -302,7 +392,41 @@
 			[
 				{
 					"buffer": 0,
-					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4932,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4932,
+								4932
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_indent": false,
+							"gutter": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"tab_width": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
 					"semi_transient": false,
 					"settings":
 					{
@@ -320,6 +444,67 @@
 						"settings":
 						{
 							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "README_COMANDI_VARI.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 34545,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1238,
+								1238
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2684,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"mde_auto_name": "A sample Markdown document",
+							"syntax": "Packages/MarkdownEditing/syntaxes/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -381,7 +566,7 @@
 	"project": "Project_SUBLIMETEXT.sublime-project",
 	"replace":
 	{
-		"height": 52.8
+		"height": 52.0
 	},
 	"save_all_on_build": false,
 	"select_file":

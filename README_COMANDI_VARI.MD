@@ -478,6 +478,26 @@
                con "unset" elimino tutte le cartelle definite sicure:
 
                   git config --global --unset-all safe.directory
+### INSTALLARE GITHUB PER WINDOWS E GIT COMMAND
+    INSTALLARE SU PC GITDESKTOP
+      Per @installare @GitDestop ossia la funzionalita di di git con Windows form , occorre fare ricorso al web e chidere
+      di scaricare l'applicazione su questo sito:  https://desktop.github.com/download/.
+
+      Il tutorial per il funzionamento di github è il seguente:
+             https://git-scm.com/book/en/v2
+    INSTALLARE SU PC I COMANDI SHELL OSSIA I GIT COMMAND
+      occorre attivare la schell di dos ed eseguire il comando per installare il git command ossia
+
+      la funzionalita su linea di comando di git. Per attivare questi comandi occorre eseguire il comando di windows
+      per poweshell che installa il seti di comandi di git:
+
+                  winget install --id Git.Git -e --source winget
+
+      Dopo questa installazione da shell di dos i comandi di git sono operativi.
+
+
+
+
 ## DOS
      SALVATAGGI SU FILE DI TESTO
         dir /A /b *.*  > A.TXT           = salvo su a.txt le cartelle senza path

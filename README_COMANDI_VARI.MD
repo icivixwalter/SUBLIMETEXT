@@ -160,6 +160,39 @@
                      esempio
                      git config user.email "icivixwalter@gmail.com"
                      git config user.name "walter"
+      RICOSTRUIRE CON GIT LA REPOSITORY LOCALE ALLINEATA ALLA REMOTA
+   
+   ### R
+      RICOSTRUIRE LA REPOSITORY LOCALE DI GIT 
+         Note
+      devi svuotare completamente la cartella MSYS anche con i dati della
+      repository locale .git ed applicare i seguenti comandi in seguenza.
+      Nota bene è valita solo per la repository REMOTA MSYS.git
+
+   
+         per la repository REMOTA:  https://github.com/icivixwalter/MSYS.git
+         
+         Tutti i passaggi per ricostruire la repository locale allineata con quella remota :
+         
+        01) git init → creata la repository locale vuota.
+        02) git remote add origin ... → collegato il repository remoto.
+        03) git remote -v → confermato che il remote è registrato correttamente.
+        04) git fetch origin → scaricati tutti i branch e commit remoti senza modificare il tuo branch locale.
+        05) git checkout -b calcolo origin/calcolo → creato il branch locale calcolo e impostato il tracking con il remoto.
+        06) git pull → niente da aggiornare perché ora il tuo branch locale è già allineato con origin/calcolo.
+      
+      Ora la tua repository locale è perfettamente sincronizzata con il remoto e pronta per lavorare.
+         
+         TUTTI I COMANDI DA ESEGUIRE:
+         
+         
+            cd c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS_OGGETTI\MSYS
+            git init
+            git remote add origin https://github.com/icivixwalter/MSYS.git
+            git remote -v
+            git fetch origin
+            git checkout -b calcolo origin/calcolo
+            git pull
    #### S
       SAFE DIRECTORY
 

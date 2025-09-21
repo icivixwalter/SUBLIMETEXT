@@ -162,7 +162,7 @@
                      git config user.name "walter"
       RICOSTRUIRE CON GIT LA REPOSITORY LOCALE ALLINEATA ALLA REMOTA
    
-   ### R
+   #### R
       RICOSTRUIRE LA REPOSITORY LOCALE DI GIT 
          Note
       devi svuotare completamente la cartella MSYS anche con i dati della

@@ -15,14 +15,6 @@
 	},
 	"buffers":
 	[
-		{
-			"contents": "",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -161,8 +153,8 @@
 	],
 	"file_history":
 	[
-		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/User/Build_ESEGUI_Python.py",
 		"/C/CASA/LINGUAGGI/SUBLIMETEXT/README_COMANDI_VARI.md",
+		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/User/Build_ESEGUI_Python.py",
 		"/C/CASA/LINGUAGGI/RUST/PROGETTI_RUST/TUTORIAL_TONY_CHAN/RIASSUNTO_TONY_CHAN.md",
 		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/User/Main.sublime-menu",
 		"/C/Users/icivi/AppData/Roaming/Sublime Text/Packages/User/Main_attiva_comandi.py",
@@ -264,13 +256,15 @@
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 31.0
 	},
 	"find_in_files":
 	{
 		"height": 134.4,
 		"where_history":
 		[
+			"*.MD, *.TXT",
+			""
 		]
 	},
 	"find_state":
@@ -278,6 +272,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"@INSTALLARE",
 			"ApriParametriSublimeCommand"
 		],
 		"highlight": false,
@@ -300,41 +295,12 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"selected": true,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 28.0
+		"height": 31.0
 	},
 	"input":
 	{
@@ -381,7 +347,7 @@
 	"project": "Project_SUBLIMETEXT.sublime-project",
 	"replace":
 	{
-		"height": 52.8
+		"height": 58.0
 	},
 	"save_all_on_build": false,
 	"select_file":

@@ -1,3 +1,5 @@
+cd ..
+
 git status
 
 pause

@@ -1,0 +1,22 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"GitHub Flavored Markdown Preview",
+		"Markdown Extended",
+		"Markdown Slideshow",
+		"MarkdownEditing",
+		"MarkdownFootnotes",
+		"MarkdownLivePreview",
+		"MarkdownPreview",
+		"Markmon real-time markdown preview",
+		"Package Control",
+		"Rust Enhanced",
+		"RustAutoComplete",
+		"Terminal",
+		"Terminus"
+	],
+}

@@ -1,5 +1,5 @@
 # @README_TUTOTORIAL_RUST.MD
-   COMANDI BREVI
+   COMANDI BREVI  (@comandi@brevi@sublimetext)
             qui vengono riportati i comandi brevi su per git, dos, sublimetex e makdown.
             per aprire il progetto di sublimetex:
 
@@ -8,7 +8,7 @@
             START "APRI PROGETTO SUBLIMETEXT" "C:\CASA\LINGUAGGI\SUBLIMETEXT\SUBLIMETEXT.sublime-project"  
 
 ## GUIDA MARK DOWN
- ### Note
+### Note
          si trova qui: https://learnxinyminutes.com/it/markdown/
    
                esempio i titoli:
@@ -19,7 +19,7 @@
                         #### Questo è un <h4>
                         ##### Questo è un <h5>
                         ###### Questo è un <h6>1
- ### MARKDOWN COMANDI
+### MARKDOWN COMANDI
    Preview
       per aprire in visualizzazine diretta scrivere:
 
@@ -40,6 +40,7 @@
          alt+shift+8                   = visualizzo in 2 pannelli orizzontali
 
 ## GITHUB
+### PROGETTO IN SUBLIMETEXT
    @Progetto@sublimetext@web
       si trova in questa posizione su github:
          https://github.com/icivixwalter/SUBLIMETEXT
@@ -50,152 +51,166 @@
          con git push               = salvo su github
          con git pull               = riaggiorno da github e gitlocale 
          git status & git pull & git add . & git commit -m "agg" & git push & git pull
- ### GIT COMANDI
-   #### A
-      @git@add
-       per aggiornare la REPOSITORY occorre eseguire i seguenti comandi concatenati:
-      @comando@unico@git
-      git pull & git status & git add . & git commit -m "agg ufficio" & git push
+### GIT COMANDI ORDINE ALFABETICO
+### NOTE
+   Per i comandi in ordine alfabetico in sublimetext utilizzare questa legenda:
+   @sublimetext@comandi@ordine@alfabetico_(DESCRIVO PER @LETTERA ogni comando)
+### A
+   @git@add
+    per aggiornare la REPOSITORY occorre eseguire i seguenti comandi concatenati:
+   @comando@unico@git
+   git pull & git status & git add . & git commit -m "agg ufficio" & git push
+   
+   per escludere file e cartelle utilizzare il file:
+      .gitignore
+   
+      senza estensione per le cartelle al suo interno 
+      utilizzare il nome della cartella:
+         AA_SALVATAGGI/
+   
+         per il file in sotto cartelle il percorso completo
+         esempio: 
+            c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\MDB\X_IMPEGNI_RICREA_OGGETTI.mdb
+### B
+   @git branch
+    CREARE I RAMI
+      Gestione delle filiali
+         Un singolo repository Git può mantenere più rami di sviluppo. Per creare 
+         un nuovo ramo denominato , utilizzareexperimental
+            git branch experimental
+            git branch ramo2        = 2 esempio
+   
+         per controllare quanti rami esistono eseguire
+            git branch
+         Verrà visualizzato un elenco di tutti i rami esistenti:
+   
+         Io ho il main ma posso creare un ramo secondario di appoggio
+            git branch appoggio
+   
+         ho creato il brach e mi trovo ancora su main con l'asterisco
+         per passare al nuovo branch digitare
+            git switch appoggio
+   
+   
+         Ora modifica un file, esegui il commit del file modificare e tornare al ramo
+            git commit -a
+            git branch main
+   
+         A questo punto i due rami si sono divisi, con cambiamenti diversi fatto in ciascuno. Per unire le modifiche apportate in ,  
+            git merge appoggio
+   
+         Se le modifiche non sono in conflitto, il gioco è fatto. In caso di conflitti, I marcatori verranno lasciati nei file problematici che mostrano il conflitto;
+   
+            git diff
+   
+   
+         per veder tutte le differenze tra i git digitare
+            gitk
+### R
+   @git@rebase
+   git pull --rebase
       
-      per escludere file e cartelle utilizzare il file:
-         .gitignore
-      
-         senza estensione per le cartelle al suo interno 
-         utilizzare il nome della cartella:
-            AA_SALVATAGGI/
-      
-            per il file in sotto cartelle il percorso completo
-            esempio: 
-               c:\GESTIONI\GESTIONE_LLPP\25_GESTIONE_LLPP\LLPP_ARCHIVI_MDB\IMPEGNI\MDB\X_IMPEGNI_RICREA_OGGETTI.mdb
-   #### B
-      @git branch
-       CREARE I RAMI
-         Gestione delle filiali
-            Un singolo repository Git può mantenere più rami di sviluppo. Per creare 
-            un nuovo ramo denominato , utilizzareexperimental
-               git branch experimental
-               git branch ramo2        = 2 esempio
-      
-            per controllare quanti rami esistono eseguire
-               git branch
-            Verrà visualizzato un elenco di tutti i rami esistenti:
-      
-            Io ho il main ma posso creare un ramo secondario di appoggio
-               git branch appoggio
-      
-            ho creato il brach e mi trovo ancora su main con l'asterisco
-            per passare al nuovo branch digitare
-               git switch appoggio
-      
-      
-            Ora modifica un file, esegui il commit del file modificare e tornare al ramo
-               git commit -a
-               git branch main
-      
-            A questo punto i due rami si sono divisi, con cambiamenti diversi fatto in ciascuno. Per unire le modifiche apportate in ,  
-               git merge appoggio
-      
-            Se le modifiche non sono in conflitto, il gioco è fatto. In caso di conflitti, I marcatori verranno lasciati nei file problematici che mostrano il conflitto;
-      
-               git diff
-      
-      
-            per veder tutte le differenze tra i git digitare
-               gitk
-   #### R
-      @git@rebase
-      git pull --rebase
+      significato
+         git pull --rebase = aggiorna il branch locale mettendo i tuoi commit sopra quelli remoti
+         Quando fai un normale git pull, Git fa due cose:
          
-         significato
-            git pull --rebase = aggiorna il branch locale mettendo i tuoi commit sopra quelli remoti
-            Quando fai un normale git pull, Git fa due cose:
-            
-            Scarica (fetch) le modifiche dal remoto.
-            
-            Fa un merge delle modifiche remote con quelle locali, creando un nuovo 
-            commit di merge se ci sono divergenze.
-            
-            Con git pull --rebase, invece di fare un merge, Git:
-            
-            Scarica (fetch) le modifiche dal remoto.
-            
-            Prende i tuoi commit locali che hai fatto dopo l'ultimo commit 
-            remoto comune e li "sposta" (rebase) sopra gli aggiornamenti remoti.
-            
-            Perché usare --rebase?
-            La storia dei commit resta lineare, senza commit di merge extra.
-            
-            La cronologia è più pulita e facile da leggere.
+         Scarica (fetch) le modifiche dal remoto.
+         
+         Fa un merge delle modifiche remote con quelle locali, creando un nuovo 
+         commit di merge se ci sono divergenze.
+         
+         Con git pull --rebase, invece di fare un merge, Git:
+         
+         Scarica (fetch) le modifiche dal remoto.
+         
+         Prende i tuoi commit locali che hai fatto dopo l'ultimo commit 
+         remoto comune e li "sposta" (rebase) sopra gli aggiornamenti remoti.
+         
+         Perché usare --rebase?
+         La storia dei commit resta lineare, senza commit di merge extra.
+         
+         La cronologia è più pulita e facile da leggere.
 <<<<<<< HEAD
-      @git@remote
-       per attivare il salvataggio all'inizio eseguire i due comandi:
-             git remote add <name> <url> =   git remote add "walter" "https://github.com/icivixwalter/MSYS.git"
-                                                         
-         and then push using the remote name
-      
-          git push <name> = git push --set-upstream origin calcolo
-      
-      
-          se da questo errore:
-          fatal: The current branch calcolo has no upstream branch.
-         To push the current branch and set the remote as upstream, use
-      
-                eseguire il comando:T&
-                   git push --set-upstream origin calcolo
-   #### P
-      PROFILO
-       @PROFILO GIT
-                  per i profilo git questa è l'utenza 
-                  email: icivixwalter@gmail.com
-                  passw: walter_01_
-      
-                  per configurare il profilo per tutto utilizzo globale con questi comandi
-                     git config --global user.email "you@example.com"
-                     git config --global user.name "Your Name"
-      
-                  se vuoi impostar il profilo solo per la  repository
-                  corrente utilizza:
-                  git config user.email "you@example.com"
-                  git config user.name "Your Name"
-      
-                     esempio
-                     git config user.email "icivixwalter@gmail.com"
-                     git config user.name "walter"
-      RICOSTRUIRE CON GIT LA REPOSITORY LOCALE ALLINEATA ALLA REMOTA
+   @git@remote
+    per attivare il salvataggio all'inizio eseguire i due comandi:
+          git remote add <name> <url> =   git remote add "walter" "https://github.com/icivixwalter/MSYS.git"
+                                                      
+      and then push using the remote name
    
-   #### R
-      RICOSTRUIRE LA REPOSITORY LOCALE DI GIT 
-         Note
-      devi svuotare completamente la cartella MSYS anche con i dati della
-      repository locale .git ed applicare i seguenti comandi in seguenza.
-      Nota bene è valita solo per la repository REMOTA MSYS.git
+       git push <name> = git push --set-upstream origin calcolo
+   
+   
+       se da questo errore:
+       fatal: The current branch calcolo has no upstream branch.
+      To push the current branch and set the remote as upstream, use
+   
+             eseguire il comando:T&
+                git push --set-upstream origin calcolo
+### P
+   PROFILO
+    @PROFILO GIT
+               per i profilo git questa è l'utenza 
+               email: icivixwalter@gmail.com
+               passw: walter_01_
+   
+               per configurare il profilo per tutto utilizzo globale con questi comandi
+                  git config --global user.email "you@example.com"
+                  git config --global user.name "Your Name"
+   
+               se vuoi impostar il profilo solo per la  repository
+               corrente utilizza:
+               git config user.email "you@example.com"
+               git config user.name "Your Name"
+   
+                  esempio
+                  git config user.email "icivixwalter@gmail.com"
+                  git config user.name "walter"
+   RICOSTRUIRE CON GIT LA REPOSITORY LOCALE ALLINEATA ALLA REMOTA
 
-   
-         per la repository REMOTA:  https://github.com/icivixwalter/MSYS.git
-         
-         Tutti i passaggi per ricostruire la repository locale allineata con quella remota :
-         
-        01) git init → creata la repository locale vuota.
-        02) git remote add origin ... → collegato il repository remoto.
-        03) git remote -v → confermato che il remote è registrato correttamente.
-        04) git fetch origin → scaricati tutti i branch e commit remoti senza modificare il tuo branch locale.
-        05) git checkout -b calcolo origin/calcolo → creato il branch locale calcolo e impostato il tracking con il remoto.
-        06) git pull → niente da aggiornare perché ora il tuo branch locale è già allineato con origin/calcolo.
+### R
+   RICOSTRUIRE LA REPOSITORY LOCALE DI GIT 
+      Note
+   devi svuotare completamente la cartella MSYS anche con i dati della
+   repository locale .git ed applicare i seguenti comandi in seguenza.
+   Nota bene è valita solo per la repository REMOTA MSYS.git
+
+
+      per la repository REMOTA:  https://github.com/icivixwalter/MSYS.git
       
-      Ora la tua repository locale è perfettamente sincronizzata con il remoto e pronta per lavorare.
-         
-         TUTTI I COMANDI DA ESEGUIRE:
-         
-         
-            cd c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS_OGGETTI\MSYS
-            git init
-            git remote add origin https://github.com/icivixwalter/MSYS.git
-            git remote -v
-            git fetch origin
-            git checkout -b calcolo origin/calcolo
-            git pull
-   #### S
-=======
+      Tutti i passaggi per ricostruire la repository locale allineata con quella remota :
+      
+     01) git init → creata la repository locale vuota.
+     02) git remote add origin ... → collegato il repository remoto.
+     03) git remote -v → confermato che il remote è registrato correttamente.
+     04) git fetch origin → scaricati tutti i branch e commit remoti senza modificare il tuo branch locale.
+     05) git checkout -b calcolo origin/calcolo → creato il branch locale calcolo e impostato il tracking con il remoto.
+     06) git pull → niente da aggiornare perché ora il tuo branch locale è già allineato con origin/calcolo.
+   
+   Ora la tua repository locale è perfettamente sincronizzata con il remoto e pronta per lavorare.
+      
+      TUTTI I COMANDI DA ESEGUIRE:
+      
+      
+         cd c:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS_OGGETTI\MSYS
+         git init
+         git remote add origin https://github.com/icivixwalter/MSYS.git
+         git remote -v
+         git fetch origin
+         git checkout -b calcolo origin/calcolo
+         git pull
+### S
+.... finire???
+### T
+#### TAB SIZE
+1) Apri Sublime Text
+2) Vai nel menu: Preferences → Settings
+3) Nella parte destra (il file Preferences.sublime-settings) incolla questo codice:
+4)    {
+       "tab_size": 3,
+       "translate_tabs_to_spaces": true,
+       "detect_indentation": false
+      }
+5) Salva il file (Ctrl + S).
 
 #### GIT ELENCO ERRORI
             Note
@@ -591,7 +606,7 @@
                   Se vuoi evitare il messaggio di warning e lasciare che Git gestisca automaticamente i fine riga, esegui:
 
                      git config --global core.autocrlf true
- ### GIT ELENCO ERRORI
+### GIT ELENCO ERRORI
             Note
                elenco errori per iniziale di lettera. @ERRORI@GIT_(errori di gith in ordine alfabetico)
       A
@@ -918,7 +933,7 @@
                risolvere con il comando @safe
 
 ## DOS
-     SALVATAGGI SU FILE DI TESTO
+### SALVATAGGI SU FILE DI TESTO
         dir /A /b *.*  > A.TXT           = salvo su a.txt le cartelle senza path
         dir /A /B /S *.* > A.TXT         = salvo su a.txt le cartelle + le sottocartelle senza path
             /A → mostra tutti i file, compresi quelli nascosti e di sistema.
@@ -951,7 +966,7 @@
                 pause
 
 ## SUBLIMETEXT
- ### APERTURA COMANDI SUBLIMETEXT
+### APERTURA COMANDI SUBLIMETEXT
       Note
          Tutti i file che verrano descritti si trovano in questa path:
             Directory di CHE PUO ESSERE APERTA con questo comando:
@@ -1033,7 +1048,7 @@
                // Visualizza File Corrente in Text | "visualizza_corrente_txt"     | VisualizzaCorrenteTxtCommand          |
                // Visualizza File Corrente in Md   | "visualizza_corrente_md"      | VisualizzaCorrenteMdCommand           |
                // ----------------------------------------------------------------------------------------------------------//
-   ### Comandi contenuti in Preferences-->Key Bindings
+### Comandi contenuti in Preferences-->Key Bindings
 
          ctrl+shift+t                     = terminale basso
          ctrl+shift+y                     = chiudo il terminale basso
@@ -1283,7 +1298,7 @@
                così a colpo d’occhio si capisce che sono collegati.
 
 ## PANDOC - TRASFORMARE .MD IN @WORD CON PANDOC
- ### Attiva Pandoc
+### Attiva Pandoc
          pandoc  = scarica pandoc come programma esterno +
                   1) installa pandoc: https://github.com/jgm/pandoc/releases/tag/3.7.0.2
                   2) Crea un Build System in Sublime
@@ -1301,8 +1316,9 @@
                      e verra creato il file .docs nella stessa cartella.
                         @creare@file@doc@docs
 
-## TOTALCOMMANDER
-   APRI PANNELLO DX E SX
+## TOTALCOMMANDER COME APRIRE IL PANNELLO
+### APRI PANNELLO DX E SX CON TOTAL COMMANDER
+@apri@pannello@total@commander_(con il istruzione dx e sx)
       Spiegazione dei parametri:
             /L= → apre la cartella nel pannello sinistro.
 
@@ -1310,7 +1326,7 @@
 
             Le virgolette sono necessarie se ci sono spazi nei percorsi.
 
-            esempio  @TOTAL@COMMANDER
+            esempio  @APRI@TOTAL@COMMANDER@APRI@TOTAL@COMMADER
                START "" "C:\Program Files\totalcmd\TOTALCMD64.EXE" /L="C:\Program Files\totalcmd\" /R="C:\Program Files\totalcmd\"
 
    IMPOSTAZIONI DI BASE DI TOTAL COMMANDER SALVATE NEL FILE  wincmd.ini 

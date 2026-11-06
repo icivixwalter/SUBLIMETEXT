@@ -1,0 +1,54 @@
+    // file. Default.sublime-commands
+
+
+    [
+        // ============================================================
+        // 01 - APRI README MENU
+        // ============================================================
+        {
+            // Testo visualizzato nella Command Palette (Ctrl + Shift + P)
+            "caption": "Apri Readme Menu",
+
+            // Nome del comando personalizzato che apre il Readme
+            "command": "apri_readme"
+        },
+
+        // ============================================================
+        // 02 - APRI TERMINUS NEL PANNELLO INFERIORE
+        // ============================================================
+        {
+            // Descrizione del comando visualizzata nella Command Palette
+            "caption": "Apri Terminale Terminus nel Pannello Inferiore",
+
+            // Comando principale del pacchetto Terminus
+            "command": "terminus_open",
+
+            // Parametri di apertura del terminale
+            "args": {
+
+                // TRUE = apre il terminale nel pannello inferiore
+                "show_in_panel": true
+            }
+        },
+
+        // ============================================================
+        // 03 - APRI POWERSHELL NEL PANNELLO INFERIORE
+        // ============================================================
+        {
+            // Descrizione del comando visualizzata nella Command Palette
+            "caption": "Apri PowerShell nel Pannello Inferiore",
+
+            // Comando principale del pacchetto Terminus
+            "command": "terminus_open",
+
+            // Parametri di apertura di PowerShell
+            "args": {
+
+                // Programma da avviare
+                "cmd": ["powershell.exe"],
+
+                // TRUE = apre PowerShell nel pannello inferiore
+                "show_in_panel": true
+            }
+        }
+    ]

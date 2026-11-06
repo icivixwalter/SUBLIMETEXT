@@ -1,0 +1,4 @@
+[
+    { "caption": "-", "id": "file" },
+    { "command": "terminal_open", "caption": "Open Terminal Here" }
+]

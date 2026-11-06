@@ -1,0 +1,31 @@
+ Il volume nell'unit… C non ha etichetta.
+ Numero di serie del volume: 8A04-483D
+
+ Directory di C:\Users\giaco\AppData\Roaming\Sublime Text\Packages\User
+
+03/11/2026  20:13    <DIR>          .
+03/11/2026  19:48    <DIR>          ..
+03/11/2026  20:13                 0 a.txt
+08/08/2026  11:48             1.237 Build_ESEGUI_DOS.sublime-build
+08/08/2026  11:48             6.663 Build_ESEGUI_Python.py
+03/11/2026  20:03            14.800 Build_ESEGUI_Python_LOG.txt
+03/11/2026  20:06             6.330 Default (Windows).sublime-keymap
+03/11/2026  19:58             1.917 Default.sublime-commands
+08/08/2026  11:48             2.721 Default.sublime-theme
+08/08/2026  11:48             6.218 Main.sublime-menu
+08/08/2026  11:48            13.307 Main.sublime-workspace
+08/08/2026  11:48             5.362 Main_attiva_comandi.py
+08/08/2026  11:48            12.162 Mariana.sublime-color-scheme
+08/08/2026  11:48                 6 Markdown.sublime-settings
+08/08/2026  11:48            14.388 Monokai.sublime-color-scheme
+08/08/2026  11:48               912 open_pdf_bat.py
+03/11/2026  19:49               433 Package Control.sublime-settings
+08/08/2026  11:48               159 PandocToWord.sublime-build
+03/11/2026  19:49             2.417 Preferences.sublime-settings
+08/08/2026  11:48                37 Terminal.sublime-settings
+03/11/2026  19:48    <DIR>          Terminus
+08/08/2026  11:48                 8 Terminus View.sublime-settings
+08/08/2026  11:48         6.280.170 Terminus.hidden-color-scheme
+03/11/2026  19:50                 8 Terminus.sublime-settings
+              21 File      6.369.255 byte
+               3 Directory  494.209.576.960 byte disponibili

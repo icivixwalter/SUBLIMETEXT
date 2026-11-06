@@ -1,0 +1,209 @@
+
+/*
+
+    ********************************************************************
+    *                    COMANDI ATTIVI - TERMINUS                    *
+    ********************************************************************
+
+    +-------+-------------------------+------------------+----------------------------------------------+
+    | Num.  | Scorciatoia             | Comando          | Descrizione                                  |
+    +-------+-------------------------+------------------+----------------------------------------------+
+    | @01   | Ctrl+Shift+T            | terminus_open    | Apri DOS nel pannello inferiore             |
+    |       |                         |                  | Se già aperto, crea un nuovo terminale      |
+    +-------+-------------------------+------------------+----------------------------------------------+
+    | @02   | Ctrl+Shift+Y            | terminus_close   | Chiudi il terminale Terminus attivo         |
+    +-------+-------------------------+------------------+----------------------------------------------+
+    | @03   | Ctrl+Shift+R            | terminus_open    | Apri DOS in una nuova scheda                |
+    +-------+-------------------------+------------------+----------------------------------------------+
+    | @04   | Ctrl+9                  | terminus_open    | Apri PowerShell in una nuova scheda         |
+    +-------+-------------------------+------------------+----------------------------------------------+
+
+
+    ********************************************************************
+    *                    MODELLO DI COMANDO                            *
+    ********************************************************************
+
+    Esempio di apertura del terminale Terminus:
+
+    [
+        {
+            "keys": ["ctrl+shift+t"],
+            "command": "terminus_open",
+            "args": {
+                "cwd": "${file_path:${folder}}"
+            }
+        }
+    ]
+
+
+    ********************************************************************
+    *              PERSONALIZZAZIONE KEY BINDINGS                      *
+    ********************************************************************
+
+    MEGLIO UTILIZZARE IL FILE PERSONALE NELLA CARTELLA USER
+    INVECE DI MODIFICARE DIRETTAMENTE IL FILE DEFAULT.
+
+    Vantaggi:
+
+    1) Le personalizzazioni non vengono perse quando Sublime Text
+       viene aggiornato o reinstallato.
+
+    2) Tutte le modifiche vengono mantenute in un unico file,
+       facile da gestire e condividere.
+
+    3) Le impostazioni personali vengono caricate insieme
+       alle impostazioni predefinite di Sublime Text.
+
+    4) È possibile modificare o disabilitare le scorciatoie
+       senza intervenire sui file originali del programma.
+
+    FILE:
+    Packages/User/Default (Windows).sublime-keymap
+
+*/
+
+
+//====================================================================//
+//                  IL CODICE DEI COMANDI KEY BINDINGS                 //
+//====================================================================//
+
+[
+
+    //================================================================//
+    // @00 - CTRL + T : APRI TERMINALE DOS NEL PANNELLO INFERIORE
+    //================================================================//
+    /*
+        SCORCIATOIA: CTRL + T
+        (sostituisce la funzione standard "transpose" di Sublime)
+
+        - Apre cmd.exe nel pannello inferiore "Terminus"
+          nella cartella del file corrente.
+        - Testo giallo su sfondo nero (vedi Terminus.sublime-settings).
+    */
+
+    {
+        "keys": ["ctrl+t"],
+        "command": "terminus_open",
+        "args": {
+            "cmd": ["cmd.exe"],
+            "cwd": "${file_path:${folder}}",
+            "panel_name": "Terminus",
+            "focus": true
+        }
+    },
+
+
+    //================================================================//
+    // @01 - APRI TERMINALE DOS NEL PANNELLO INFERIORE
+    //================================================================//
+    /*
+        SCORCIATOIA: CTRL + SHIFT + T
+
+        FUNZIONAMENTO:
+
+        - Apre il terminale DOS (cmd.exe).
+        - Visualizza il terminale nel pannello inferiore.
+        - Utilizza la cartella del file attualmente selezionato.
+        - Se il pannello è già aperto, crea un nuovo terminale
+          all'interno del pannello Terminus.
+
+        PARAMETRI:
+
+        cmd        = Programma DOS da avviare.
+        cwd        = Cartella di lavoro iniziale.
+        panel_name = Nome del pannello inferiore.
+    */
+
+    {
+        "keys": ["ctrl+shift+t"],
+        "command": "terminus_open",
+        "args": {
+            "cmd": ["cmd.exe"],
+            "cwd": "${file_path:${folder}}",
+            "panel_name": "Terminus"
+        }
+    },
+
+
+    //================================================================//
+    // @02 - CHIUDI TERMINALE TERMINUS
+    //================================================================//
+    /*
+        SCORCIATOIA: CTRL + SHIFT + Y
+
+        FUNZIONAMENTO:
+
+        - Chiude il terminale Terminus attivo.
+        - Non chiude Sublime Text.
+        - Non chiude le altre schede dell'editor.
+
+        NOTA:
+
+        Il comando viene richiamato quando si utilizza
+        la combinazione CTRL + SHIFT + Y.
+    */
+
+    {
+        "keys": ["ctrl+shift+y"],
+        "command": "terminus_close"
+    },
+
+
+    //================================================================//
+    // @03 - APRI TERMINALE DOS IN UNA NUOVA SCHEDA
+    //================================================================//
+    /*
+        SCORCIATOIA: CTRL + SHIFT + R
+
+        FUNZIONAMENTO:
+
+        - Apre DOS (cmd.exe) in una nuova scheda.
+        - Non utilizza il pannello inferiore.
+        - Mantiene la cartella del file attualmente selezionato.
+
+        NOTA:
+
+        Non viene specificato panel_name perché il terminale
+        deve essere aperto come scheda indipendente.
+    */
+
+    {
+        "keys": ["ctrl+shift+r"],
+        "command": "terminus_open",
+        "args": {
+            "cmd": ["cmd.exe"],
+            "cwd": "${file_path:${folder}}"
+        }
+    },
+
+
+    //================================================================//
+    // @04 - APRI POWERSHELL IN UNA NUOVA SCHEDA
+    //================================================================//
+    /*
+        SCORCIATOIA: CTRL + 9
+
+        FUNZIONAMENTO:
+
+        - Apre PowerShell in una nuova scheda.
+        - Non utilizza il pannello inferiore.
+        - Mantiene la cartella del file attualmente selezionato.
+
+        ATTENZIONE:
+
+        CTRL + 9 è normalmente utilizzato da Sublime Text
+        per selezionare l'ultima scheda.
+
+        Se si verifica un conflitto, utilizzare CTRL + ALT + 9.
+    */
+
+    {
+        "keys": ["ctrl+9"],
+        "command": "terminus_open",
+        "args": {
+            "cmd": ["powershell.exe"],
+            "cwd": "${file_path:${folder}}"
+        }
+    }
+
+]

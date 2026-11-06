@@ -1,0 +1,230 @@
+[2026-08-28 19:07:36] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-08-28 19:07:45] Inizializzazione: ApriReadmeCommand istanziata
+[2026-08-28 19:08:38] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-08-28 19:08:47] Inizializzazione: ApriReadmeCommand istanziata
+[2026-08-28 19:10:32] Inizializzazione: ApriReadmeCommand istanziata
+[2026-08-29 17:45:51] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-08-29 17:45:58] Inizializzazione: ApriReadmeCommand istanziata
+[2026-08-29 17:48:25] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-08-29 17:48:30] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-08-29 17:48:38] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-08-29 17:48:46] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-08-29 17:48:53] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-08-29 18:27:45] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-08-29 18:29:13] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-08-29 18:29:23] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-08-29 18:29:25] Inizializzazione: ApriReadmeCommand istanziata
+[2026-08-29 18:29:55] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-08-29 18:30:15] Inizializzazione: ApriReadmeCommand istanziata
+[2026-08-29 18:30:41] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-08-29 18:30:57] Inizializzazione: ApriReadmeCommand istanziata
+[2026-08-29 18:48:00] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-08-29 18:48:13] Inizializzazione: ApriReadmeCommand istanziata
+[2026-08-29 18:48:53] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-08-29 18:49:19] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-08-29 18:49:25] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-08-29 18:49:34] Inizializzazione: ApriReadmeCommand istanziata
+[2026-08-29 18:53:47] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-08-29 18:58:53] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-08-29 18:58:56] Inizializzazione: ApriReadmeCommand istanziata
+[2026-08-30 08:38:17] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-08-30 08:38:26] Inizializzazione: ApriReadmeCommand istanziata
+[2026-09-01 17:19:16] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-09-01 17:21:13] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-09-01 17:21:38] Inizializzazione: ApriReadmeCommand istanziata
+[2026-09-13 09:35:32] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-09-13 09:40:02] Inizializzazione: ApriReadmeCommand istanziata
+[2026-09-13 12:32:56] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-09-13 12:32:59] Inizializzazione: ApriReadmeCommand istanziata
+[2026-09-18 08:38:32] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-09-18 23:05:51] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-09-19 10:34:22] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-09-19 17:04:14] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-09-19 17:04:55] Inizializzazione: ApriReadmeCommand istanziata
+[2026-09-19 17:08:48] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-09-19 17:25:08] Inizializzazione: ApriReadmeCommand istanziata
+[2026-10-01 09:17:51] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-10-09 16:38:07] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-10-09 16:38:21] Inizializzazione: ApriReadmeCommand istanziata
+[2026-10-10 19:26:10] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-10-10 19:26:14] Inizializzazione: ApriReadmeCommand istanziata
+[2026-10-10 19:56:17] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-10-11 08:27:46] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-10-11 08:34:06] Inizializzazione: ApriReadmeCommand istanziata
+[2026-10-15 16:18:24] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-10-15 16:25:03] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-10-15 16:26:15] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-10-15 16:26:18] Inizializzazione: ApriReadmeCommand istanziata
+[2026-10-15 16:27:02] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-10-15 16:36:11] Inizializzazione: ApriReadmeCommand istanziata
+[2026-10-16 09:42:42] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-10-16 09:42:43] Inizializzazione: ApriReadmeCommand istanziata
+[2026-10-16 16:54:40] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-10-16 16:54:50] Inizializzazione: ApriReadmeCommand istanziata
+[2026-10-16 17:48:48] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-10-16 17:50:39] Inizializzazione: ApriReadmeCommand istanziata
+[2026-10-16 17:56:46] Inizializzazione: ApriReadmeCommand istanziata
+[2026-10-16 17:57:59] Inizializzazione: ApriReadmeCommand istanziata
+[2026-10-16 18:27:37] Inizializzazione: ApriReadmeCommand istanziata
+[2026-10-17 12:59:12] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-10-17 13:00:33] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-10-17 13:00:40] Inizializzazione: ApriReadmeCommand istanziata
+[2026-10-17 16:55:36] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-10-17 16:55:42] Inizializzazione: ApriReadmeCommand istanziata
+[2026-10-17 17:21:43] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-10-17 17:22:14] Inizializzazione: ApriReadmeCommand istanziata
+[2026-10-18 21:14:20] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-10-18 21:14:58] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-10-18 21:15:05] Inizializzazione: ApriReadmeCommand istanziata
+[2026-10-21 20:46:13] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-10-21 20:46:23] Inizializzazione: ApriReadmeCommand istanziata
+[2026-10-22 16:51:29] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-10-25 11:24:13] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-10-25 17:50:35] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-10-30 13:12:07] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-10-30 13:12:19] Inizializzazione: ApriReadmeCommand istanziata
+[2026-10-30 14:02:18] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-10-30 14:02:31] Inizializzazione: ApriReadmeCommand istanziata
+[2026-10-30 14:03:08] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-10-30 14:07:13] Inizializzazione: ApriReadmeCommand istanziata
+[2026-10-30 17:32:11] Inizializzazione: ApriReadmeCommand istanziata
+[2026-10-30 17:32:20] Inizializzazione: ApriReadmeCommand istanziata
+[2026-10-30 17:32:44] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-10-30 17:33:36] Inizializzazione: ApriReadmeCommand istanziata
+[2026-10-30 17:36:24] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-10-30 17:36:26] Inizializzazione: ApriReadmeCommand istanziata
+[2026-10-30 17:38:08] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-10-30 17:38:11] Inizializzazione: ApriReadmeCommand istanziata
+[2026-10-30 17:38:51] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-10-30 17:38:56] Inizializzazione: ApriReadmeCommand istanziata
+[2026-10-30 17:42:50] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-10-30 17:42:53] Inizializzazione: ApriReadmeCommand istanziata
+[2026-10-30 17:57:47] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-10-30 18:02:09] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-10-30 18:02:32] Inizializzazione: ApriReadmeCommand istanziata
+[2026-10-30 18:05:37] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-10-30 18:05:38] Inizializzazione: ApriReadmeCommand istanziata
+[2026-10-30 18:10:16] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-10-30 18:10:17] Inizializzazione: ApriReadmeCommand istanziata
+[2026-10-30 18:13:21] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-10-30 18:13:26] Inizializzazione: ApriReadmeCommand istanziata
+[2026-10-30 18:15:14] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-10-30 18:15:21] Inizializzazione: ApriReadmeCommand istanziata
+[2026-10-30 18:18:36] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-10-30 18:18:39] Inizializzazione: ApriReadmeCommand istanziata
+[2026-10-31 20:49:16] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-10-31 20:49:32] Inizializzazione: ApriReadmeCommand istanziata
+[2026-10-31 20:57:31] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-01 10:14:02] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-01 10:14:05] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-01 10:25:44] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-01 10:29:29] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-01 12:12:27] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-01 12:30:33] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-01 12:30:56] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-01 12:31:58] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-01 12:32:01] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-01 12:48:22] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-01 12:51:01] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-01 12:51:07] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-01 12:55:45] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-01 13:20:32] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-01 18:04:10] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-01 18:04:14] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-01 18:14:43] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-01 18:14:46] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-01 18:15:07] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-01 18:23:12] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-01 18:23:16] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-01 18:27:28] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-01 18:27:30] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-01 18:29:37] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-01 18:29:52] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-01 18:29:56] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-01 18:30:46] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-01 18:30:48] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-01 18:31:18] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-01 18:31:21] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-01 18:33:17] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-01 18:33:26] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-01 18:33:42] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-01 18:34:00] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-01 18:34:09] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-01 18:34:29] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-01 18:34:31] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-01 18:36:02] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-01 18:36:03] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-01 18:38:07] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-01 18:38:15] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-01 18:41:14] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-01 18:41:17] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-01 18:44:21] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-01 18:44:54] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-01 18:44:55] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-01 18:45:53] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-01 18:45:55] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-01 19:57:54] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-01 19:58:08] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-01 19:58:31] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-01 19:58:59] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-01 19:59:11] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-01 20:01:31] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-01 20:01:32] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-01 20:02:48] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-01 20:02:49] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-01 20:04:54] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-01 20:08:37] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-01 20:10:37] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-01 20:10:38] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-01 20:12:33] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-01 20:12:40] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-03 17:52:01] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-03 17:52:24] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-03 17:52:25] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-03 19:38:07] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-03 19:39:56] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-03 19:43:33] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-03 19:48:07] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-03 19:48:25] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-03 19:48:41] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-03 19:50:01] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-03 19:50:11] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-03 19:51:30] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-03 19:59:06] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-03 19:59:08] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-03 20:03:43] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-03 20:03:54] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-03 20:25:52] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-03 20:26:45] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-03 20:32:27] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-03 20:32:29] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-03 20:34:01] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-03 20:34:47] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-03 20:34:48] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-03 20:38:12] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-03 20:38:55] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-03 20:40:01] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-03 20:40:52] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-03 20:40:57] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-03 20:41:00] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-03 20:41:31] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-03 20:42:05] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-03 20:42:06] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-03 20:42:33] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-03 20:42:36] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-06 15:06:37] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-06 16:06:18] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-06 16:06:43] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-06 16:11:02] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-06 16:12:34] Esecuzione VisualizzaCorrenteMdCommand.run()
+[2026-11-06 16:12:34] File corrente: C:\CASA\LINGUAGGI\ACCESS\PROGETTI_MDB\MSYS\MSys_DF02\git_STATUS.BAT
+[2026-11-06 16:12:50] Esecuzione ApriParametriSublimeCommand.run()
+[2026-11-06 16:12:50] Apertura cartella configurazione: C:\Users\giaco\AppData\Roaming\Sublime Text\Packages
+[2026-11-06 16:23:07] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-06 16:25:26] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-06 16:41:54] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-06 16:43:42] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-06 16:43:56] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-06 16:45:49] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente
+[2026-11-06 16:46:01] Inizializzazione: ApriReadmeCommand istanziata
+[2026-11-06 16:50:18] ✅ Plugin Build_ESEGUI_Python.py caricato correttamente

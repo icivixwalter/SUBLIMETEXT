@@ -1,0 +1,7 @@
+[
+	{
+		"caption": "Open Terminal Here",
+		"command": "terminal_open",
+		"args": {"paths": []}
+	}
+]

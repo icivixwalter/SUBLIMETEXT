@@ -1,0 +1,22 @@
+{
+    // ============================================================
+    // 01 - SCHEMA COLORI DEL TERMINALE
+    // ============================================================
+
+    // Schema colori generato da Terminus a partire da
+    // "user_theme_colors" in Terminus.sublime-settings.
+    // Si indica solo il nome del file: Sublime lo cerca in tutti i pacchetti.
+    "color_scheme": "Terminus.hidden-color-scheme",
+
+    // ============================================================
+    // 02 - CARATTERE DEL TERMINALE
+    // ============================================================
+
+    // Tipo di carattere utilizzato per visualizzare il testo.
+    // Consolas è un carattere monospaziato, adatto ai terminali.
+    "font_face": "Consolas",
+
+    // Dimensione del carattere espressa in punti.
+    "font_size": 12
+
+}

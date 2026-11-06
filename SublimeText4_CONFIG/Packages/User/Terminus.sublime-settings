@@ -1,0 +1,37 @@
+// Terminus Settings - User
+{
+    // ============================================================
+    // TEMA COLORI PERSONALIZZATO DEL TERMINALE
+    // ============================================================
+    // "user" = usa i colori definiti in "user_theme_colors".
+    // Terminus rigenera automaticamente il file
+    // Packages/User/Terminus/Terminus.hidden-color-scheme
+    // NON modificare a mano quel file.
+    "theme": "user",
+
+    "user_theme_colors": {
+        "background": "#0c0c0c",            // sfondo nero
+        "foreground": "#ffff55",            // testo GIALLO ben visibile
+        "caret": "#00ff00",                 // cursore verde
+        "selection": "#444444",             // sfondo selezione
+        "selection_foreground": "#ffffff",  // testo selezionato
+
+        // Colori ANSI (usati dai programmi che colorano l'output)
+        "black":         "#4e4e4e",         // grigio (non nero, sempre visibile)
+        "red":           "#ff5555",
+        "green":         "#55ff55",
+        "brown":         "#ffff55",
+        "blue":          "#5c9cff",
+        "magenta":       "#ff55ff",
+        "cyan":          "#55ffff",
+        "white":         "#e0e0e0",
+        "light_black":   "#808080",
+        "light_red":     "#ff8080",
+        "light_green":   "#80ff80",
+        "light_brown":   "#ffff80",
+        "light_blue":    "#80b0ff",
+        "light_magenta": "#ff80ff",
+        "light_cyan":    "#80ffff",
+        "light_white":   "#ffffff"
+    }
+}

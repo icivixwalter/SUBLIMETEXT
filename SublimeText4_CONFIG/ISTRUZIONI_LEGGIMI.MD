@@ -27,6 +27,15 @@ Tutti si posizionano da soli nella cartella principale del repo: basta il doppio
 Se un bat trova un errore si ferma e scrive `*** ERRORE ...`: leggere il messaggio
 sopra. Il caso più comune è un PUSH "rejected": eseguire prima `git_PULL.BAT`.
 
+**LOG di `git_STATUS+PULL+ADD+COMMIT+PUSH.BAT`** → `GIT_BAT\log.txt`
+- ogni esecuzione aggiunge in fondo un blocco con data, ora, PC e utente;
+- per ogni passo (STATUS, ADD, COMMIT, PULL, PUSH) scrive il comando, il risultato
+  di git e `ESITO: OK` oppure `ESITO: ERRORE - codice N`;
+- l'ultima riga del blocco dice `ESITO FINALE: TUTTO OK` oppure `*** ERRORE ***`;
+- in caso di errore il log si apre da solo nel Blocco note;
+- il log resta solo sul PC (escluso nel `.gitignore`, non va su GitHub);
+  se diventa troppo lungo si può cancellare: verrà ricreato.
+
 ---
 
 ## I DUE FILE .BAT – QUALE USARE?

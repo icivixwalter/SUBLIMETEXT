@@ -1,2 +1,5 @@
 RUST\stampa_lista_pacchetti\target\
 RUST\stampa_lista_pacchetti\Cargo.lock
+
+# log dei bat git (resta solo sul PC)
+GIT_BAT/log.txt
